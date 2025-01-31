@@ -4,49 +4,70 @@ import {
   Building,
   Briefcase,
   Blocks,
+  FileCheck,
+  HardHat,
+  Building2,
+  ShieldCheck,
 } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      title: "Türtechnik-Planung",
+      title: "Türtechnik-Planung & Fachbauleitung",
       icon: DoorClosed,
       description:
-        "Professionelle Planung und Beratung für Türanlagen unter Berücksichtigung aller brandschutztechnischen Anforderungen.",
+        "Professionelle Planung und Fachbauleitung für alle Arten von Türen (Rauch-, Brand-, Flucht- und Sicherheitstüren) inklusive technischer Ausstattung. Spezialisiert auf Flughäfen, JVAs und Krankenhäuser.",
     },
     {
       title: "Brandschutzplanung",
       icon: Building,
       description:
-        "Umfassende Brandschutzkonzepte und -planung für Neu- und Bestandsbauten gemäß aktueller Vorschriften.",
+        "Ganzheitliche Brandschutzkonzepte und Fachbauleitung (LP8) für Neu- und Bestandsbauten. Inklusive Rauchsimulationen und Überprüfung der Rauchdichtigkeit.",
     },
     {
       title: "Qualitätssicherung",
       icon: Shield,
       description:
-        "Kontinuierliche Überwachung und Dokumentation aller brandschutztechnischen Maßnahmen zur Sicherstellung höchster Standards.",
+        "Baubegleitende Koordination und Überwachung von Türen und Brandabschottungen. Rechtssichere Dokumentation aller Maßnahmen.",
     },
     {
       title: "Projektmanagement",
       icon: Briefcase,
       description:
-        "Professionelle Koordination und Betreuung Ihrer Brandschutzprojekte von der Planung bis zur Umsetzung.",
+        "Professionelle Koordination von Schnittstellen im Bereich Türen, einschließlich Einbau, Sicherheitstechnik und Verkabelung.",
     },
     {
-      title: "Brandschutzlösungen",
+      title: "Bestandsaufnahme & Begutachtung",
+      icon: FileCheck,
+      description:
+        "Erstaufnahme und Begutachtung von Türen und Wänden in Bestandsgebäuden. Erstellung detaillierter Türlisten für Neu- und Bestandsgebäude.",
+    },
+    {
+      title: "Gebäudemanagement",
+      icon: Building2,
+      description:
+        "Unterstützung und Übernahme des Gebäudemanagements im Bereich Türen. Neu: Wartungen und Reparaturen von Türen.",
+    },
+    {
+      title: "Brandabschottungen",
       icon: Blocks,
       description:
-        "Innovative und maßgeschneiderte Lösungen für alle Anforderungen des baulichen Brandschutzes.",
+        "Planung, Ausführung und Wartung von Brandabschottungen jeglicher Art. Komplettlösungen für maximale Sicherheit.",
+    },
+    {
+      title: "Betreiberpflichten & Compliance",
+      icon: ShieldCheck,
+      description:
+        "Professionelle Unterstützung bei der Erfüllung gesetzlicher Betreiberpflichten. Rechtskonforme und dokumentierte Umsetzung aller Maßnahmen.",
     },
   ];
 
-  return (
-    <section id="services" className="py-16 bg-muted">
+  return (services" className="py-16 bg-muted">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl lg:text-4xl font-bold text-center text-secondary mb-12">
           Unsere Dienstleistungen
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {services.map((service) => (
             <div
               key={service.title}
