@@ -5,7 +5,6 @@ import {
   Briefcase,
   Blocks,
   FileCheck,
-  HardHat,
   Building2,
   ShieldCheck,
 } from "lucide-react";
@@ -62,7 +61,8 @@ const Services = () => {
     },
   ];
 
-  return (services" className="py-16 bg-muted">
+  return (
+    <section className="py-16 bg-muted">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl lg:text-4xl font-bold text-center text-secondary mb-12">
           Unsere Dienstleistungen
