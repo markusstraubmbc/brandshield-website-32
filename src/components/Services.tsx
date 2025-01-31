@@ -5,8 +5,6 @@ import {
   Briefcase,
   Blocks,
   FileCheck,
-  Building2,
-  ShieldCheck,
 } from "lucide-react";
 
 const Services = () => {
@@ -18,16 +16,16 @@ const Services = () => {
         "Professionelle Planung und Fachbauleitung für alle Arten von Türen (Rauch-, Brand-, Flucht- und Sicherheitstüren) inklusive technischer Ausstattung. Spezialisiert auf Flughäfen, JVAs und Krankenhäuser.",
     },
     {
-      title: "Brandschutzplanung",
+      title: "Brandschutzplanung & Abschottungen",
       icon: Building,
       description:
-        "Ganzheitliche Brandschutzkonzepte und Fachbauleitung (LP8) für Neu- und Bestandsbauten. Inklusive Rauchsimulationen und Überprüfung der Rauchdichtigkeit.",
+        "Ganzheitliche Brandschutzkonzepte, Fachbauleitung (LP8) und Brandabschottungen für Neu- und Bestandsbauten. Inklusive Rauchsimulationen und Qualitätssicherung.",
     },
     {
-      title: "Qualitätssicherung",
+      title: "Qualitätssicherung & Compliance",
       icon: Shield,
       description:
-        "Baubegleitende Koordination und Überwachung von Türen und Brandabschottungen. Rechtssichere Dokumentation aller Maßnahmen.",
+        "Baubegleitende Koordination, Überwachung und rechtssichere Dokumentation. Professionelle Unterstützung bei der Erfüllung gesetzlicher Betreiberpflichten.",
     },
     {
       title: "Projektmanagement",
@@ -42,22 +40,10 @@ const Services = () => {
         "Erstaufnahme und Begutachtung von Türen und Wänden in Bestandsgebäuden. Erstellung detaillierter Türlisten für Neu- und Bestandsgebäude.",
     },
     {
-      title: "Gebäudemanagement",
-      icon: Building2,
-      description:
-        "Unterstützung und Übernahme des Gebäudemanagements im Bereich Türen. Neu: Wartungen und Reparaturen von Türen.",
-    },
-    {
-      title: "Brandabschottungen",
+      title: "Wartung & Instandhaltung",
       icon: Blocks,
       description:
-        "Planung, Ausführung und Wartung von Brandabschottungen jeglicher Art. Komplettlösungen für maximale Sicherheit.",
-    },
-    {
-      title: "Betreiberpflichten & Compliance",
-      icon: ShieldCheck,
-      description:
-        "Professionelle Unterstützung bei der Erfüllung gesetzlicher Betreiberpflichten. Rechtskonforme und dokumentierte Umsetzung aller Maßnahmen.",
+        "Wartungen und Reparaturen von Türen, Brandabschottungen und anderen brandschutztechnischen Einrichtungen. Unterstützung im Gebäudemanagement.",
     },
   ];
 

@@ -27,34 +27,32 @@ const Header = () => {
           {/* Contact Info - Desktop */}
           <div className="hidden lg:flex items-center gap-6 text-secondary">
             <a
-              href="tel:+491234567890"
+              href="tel:+4971145145212"
               className="flex items-center gap-2 hover:text-primary transition-colors"
             >
               <Phone size={20} />
-              <span>+49 123 456 7890</span>
+              <span>+49 (0) 711 – 45145212</span>
             </a>
             <a
-              href="mailto:info@arnold-brandschutz.de"
+              href="mailto:j.arnold@brandschutz-arnold.de"
               className="flex items-center gap-2 hover:text-primary transition-colors"
             >
               <Mail size={20} />
-              <span>info@arnold-brandschutz.de</span>
+              <span>j.arnold@brandschutz-arnold.de</span>
             </a>
           </div>
 
           {/* Navigation - Desktop */}
           <nav className="hidden lg:flex items-center gap-6">
-            {["services", "team", "expertise", "references", "contact"].map(
-              (item) => (
-                <button
-                  key={item}
-                  onClick={() => scrollToSection(item)}
-                  className="text-secondary hover:text-primary capitalize transition-colors"
-                >
-                  {item}
-                </button>
-              )
-            )}
+            {["services", "team", "contact"].map((item) => (
+              <button
+                key={item}
+                onClick={() => scrollToSection(item)}
+                className="text-secondary hover:text-primary capitalize transition-colors"
+              >
+                {item === "contact" ? "Kontakt" : item}
+              </button>
+            ))}
           </nav>
 
           {/* Mobile Menu Button */}
@@ -70,32 +68,30 @@ const Header = () => {
         {isMenuOpen && (
           <div className="lg:hidden py-4 border-t">
             <nav className="flex flex-col gap-4">
-              {["services", "team", "expertise", "references", "contact"].map(
-                (item) => (
-                  <button
-                    key={item}
-                    onClick={() => scrollToSection(item)}
-                    className="text-secondary hover:text-primary capitalize transition-colors"
-                  >
-                    {item}
-                  </button>
-                )
-              )}
+              {["services", "team", "contact"].map((item) => (
+                <button
+                  key={item}
+                  onClick={() => scrollToSection(item)}
+                  className="text-secondary hover:text-primary capitalize transition-colors"
+                >
+                  {item === "contact" ? "Kontakt" : item}
+                </button>
+              ))}
             </nav>
             <div className="flex flex-col gap-4 mt-4 text-secondary">
               <a
-                href="tel:+491234567890"
+                href="tel:+4971145145212"
                 className="flex items-center gap-2 hover:text-primary transition-colors"
               >
                 <Phone size={20} />
-                <span>+49 123 456 7890</span>
+                <span>+49 (0) 711 – 45145212</span>
               </a>
               <a
-                href="mailto:info@arnold-brandschutz.de"
+                href="mailto:j.arnold@brandschutz-arnold.de"
                 className="flex items-center gap-2 hover:text-primary transition-colors"
               >
                 <Mail size={20} />
-                <span>info@arnold-brandschutz.de</span>
+                <span>j.arnold@brandschutz-arnold.de</span>
               </a>
             </div>
           </div>

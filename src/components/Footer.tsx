@@ -1,4 +1,6 @@
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-secondary text-white py-8">
       <div className="container mx-auto px-4">
@@ -14,22 +16,9 @@ const Footer = () => {
               seit über 25 Jahren.
             </p>
           </div>
-          <div>
-            <h4 className="font-bold mb-4">Impressum</h4>
-            <div className="text-white/80 space-y-2">
-              <p>Brandschutz Arnold</p>
-              <p>Inhaber des Unternehmens: Jürgen Arnold</p>
-              <p>Brühlstraße 67</p>
-              <p>70771 Leinfelden-Echterdingen</p>
-              <p>Deutschland</p>
-              <p>Email: j.arnold@brandschutz-arnold.de</p>
-              <p>Telefon: +49 (0) 711 – 45145212</p>
-              <p>Umsatzsteuer-Identifikationsnummer: 97003/66663</p>
-            </div>
-          </div>
         </div>
         <div className="mt-8 pt-8 border-t border-white/20 text-center text-white/60">
-          <p>&copy; 2024 Arnold Brandschutz. Alle Rechte vorbehalten.</p>
+          <p>&copy; {currentYear} Arnold Brandschutz. Alle Rechte vorbehalten.</p>
         </div>
       </div>
     </footer>
