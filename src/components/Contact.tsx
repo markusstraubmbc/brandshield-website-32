@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl lg:text-4xl font-bold text-center text-secondary mb-12">
-          Kontakt & Impressum
+          Kontakt
         </h2>
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-start">
           <div className="space-y-8">
@@ -47,12 +47,7 @@ const Contact = () => {
                   <Mail size={20} />
                   <span>j.arnold@brandschutz-arnold.de</span>
                 </a>
-              </div>
-              <div className="pt-8">
-                <h3 className="text-xl font-bold text-secondary mb-4">
-                  Impressum
-                </h3>
-                <p className="text-secondary/80">
+                <p className="text-secondary/80 pt-4">
                   Umsatzsteuer-Identifikationsnummer: 97003/66663
                 </p>
               </div>
