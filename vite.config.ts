@@ -11,14 +11,7 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' && componentTagger({
-      // Enable all latest features
-      enableAllFeatures: true,
-      // Enable component highlighting
-      enableHighlighting: true,
-      // Enable component selection
-      enableSelection: true
-    }),
+    mode === 'development' && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
