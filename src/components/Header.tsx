@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Menu, X, Phone, Mail } from "lucide-react";
 
@@ -18,7 +19,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img
-              src="/lovable-uploads/51f6a88b-0936-4380-a9af-5b9bd7144996.png"
+              src="/lovable-uploads/6c3aea04-3102-4e05-b5eb-26066f002bdc.png"
               alt="Arnold Brandschutz Logo"
               className="h-12"
             />
