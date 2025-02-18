@@ -27,7 +27,7 @@ const Header = () => {
             <img
               src="/lovable-uploads/6c3aea04-3102-4e05-b5eb-26066f002bdc.png"
               alt="Arnold Brandschutz Logo - Experte für Brandschutz und Fluchtwegplanung in Stuttgart und Umgebung"
-              className="h-12 lg:h-16" // h-12 for mobile, h-16 for desktop (33% larger)
+              className="h-14 lg:h-16" // h-14 for mobile (increased from h-12), h-16 for desktop
             />
           </div>
 
