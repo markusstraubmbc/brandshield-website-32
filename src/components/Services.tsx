@@ -1,3 +1,4 @@
+
 import {
   DoorClosed,
   Shield,
@@ -10,40 +11,40 @@ import {
 const Services = () => {
   const services = [
     {
-      title: "Türtechnik-Planung & Fachbauleitung",
+      title: "Begutachtung & Bestandsaufnahme & Türenplanung",
       icon: DoorClosed,
       description:
-        "Professionelle Planung und Fachbauleitung für alle Arten von Türen (Rauch-, Brand-, Flucht- und Sicherheitstüren) inklusive technischer Ausstattung. Spezialisiert auf Flughäfen, JVAs und Krankenhäuser.",
+        "Professionelle Bestandsaufnahme und Planung von Rauch-, Brand-, Flucht- und Sicherheitstüren. Spezialisiert auf Flughäfen, JVAs, Krankenhäuser, öffentliche Gebäude u.v.m..",
     },
     {
-      title: "Brandschutzplanung & Abschottungen",
+      title: "Fachbauleitung & Türtechnik",
       icon: Building,
       description:
-        "Ganzheitliche Brandschutzkonzepte, Fachbauleitung (LP8) und Brandabschottungen für Neu- und Bestandsbauten. Inklusive Rauchsimulationen und Qualitätssicherung.",
+        "Planung/Umsetzung inkl. technischer Türausstattungen (z.B. Fluchttürterminal, Automatisierung von Türen, usw.) einschließlich Einbau, Sicherheitstechnik und Verkabelung. Kundenorientierte Lösungen.",
     },
     {
-      title: "Qualitätssicherung & Compliance",
+      title: "Projektmanagement; Qualitätssicherung & Compliance",
       icon: Shield,
       description:
-        "Baubegleitende Koordination, Überwachung und rechtssichere Dokumentation. Professionelle Unterstützung bei der Erfüllung gesetzlicher Betreiberpflichten.",
+        "Professionelle Zusammenführung von Schnittstellen im Bereich Türen, Wände, Brandabschottungen, Brandschutzklappen u.v.m.. Baubegleitende Koordination, Überwachung sowie rechtskonforme Dokumentation und Unterstützung bei der Erfüllung gesetzlicher Betreiberpflichten.",
     },
     {
-      title: "Projektmanagement",
+      title: "Wartung & Instandhaltung; Herstellung von Brandabschottungen jeglicher Art",
       icon: Briefcase,
       description:
-        "Professionelle Koordination von Schnittstellen im Bereich Türen, einschließlich Einbau, Sicherheitstechnik und Verkabelung.",
+        "Wartung und Reparaturen von Türen, Herstellung von Brandabschottungen und anderen brandschutztechnischen Einrichtungen. Umsetzung von Brandschauen. Unterstützung im Gebäudemanagement.",
     },
     {
-      title: "Bestandsaufnahme & Begutachtung",
+      title: "Rauchsimulationen in Gebäuden",
       icon: FileCheck,
       description:
-        "Erstaufnahme und Begutachtung von Türen und Wänden in Bestandsgebäuden. Erstellung detaillierter Türlisten für Neu- und Bestandsgebäude.",
+        "Ausführung von Rauchsimulationen in Gebäuden; überprüfen der Rauchdichtigkeit von Wänden, Brandabschottungen usw.",
     },
     {
-      title: "Wartung & Instandhaltung",
+      title: "Referenzen",
       icon: Blocks,
       description:
-        "Wartungen und Reparaturen von Türen, Brandabschottungen und anderen brandschutztechnischen Einrichtungen. Unterstützung im Gebäudemanagement.",
+        "Flughafen Stuttgart GmbH, Q2 Tower München, UKT Tübingen, Agentur für Arbeit Stuttgart, STRABAG, S21-ARGE Flughafentunnel u.v.m.",
     },
   ];
 
@@ -69,6 +70,9 @@ const Services = () => {
             </div>
           ))}
         </div>
+        <p className="text-center text-secondary mt-12 text-lg">
+          Gerne beraten wir Sie in einem persönlichen Gespräch!
+        </p>
       </div>
     </section>
   );
