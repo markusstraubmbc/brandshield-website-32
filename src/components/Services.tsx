@@ -1,48 +1,48 @@
 
 import {
   DoorClosed,
-  Shield,
   Building,
+  Shield,
   Briefcase,
-  Blocks,
   FileCheck,
+  Blocks,
 } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
       title: "Begutachtung & Bestandsaufnahme & Türenplanung",
-      icon: DoorClosed,
+      icon: DoorClosed,  // Most appropriate for door planning and assessment
       description:
         "Professionelle Bestandsaufnahme und Planung von Rauch-, Brand-, Flucht- und Sicherheitstüren. Spezialisiert auf Flughäfen, JVAs, Krankenhäuser, öffentliche Gebäude u.v.m..",
     },
     {
       title: "Fachbauleitung & Türtechnik",
-      icon: Building,
+      icon: Building,  // Represents construction and building management
       description:
         "Planung/Umsetzung inkl. technischer Türausstattungen (z.B. Fluchttürterminal, Automatisierung von Türen, usw.) einschließlich Einbau, Sicherheitstechnik und Verkabelung. Kundenorientierte Lösungen.",
     },
     {
       title: "Projektmanagement; Qualitätssicherung & Compliance",
-      icon: Shield,
+      icon: Shield,  // Represents security and compliance
       description:
         "Professionelle Zusammenführung von Schnittstellen im Bereich Türen, Wände, Brandabschottungen, Brandschutzklappen u.v.m.. Baubegleitende Koordination, Überwachung sowie rechtskonforme Dokumentation und Unterstützung bei der Erfüllung gesetzlicher Betreiberpflichten.",
     },
     {
       title: "Wartung & Instandhaltung; Herstellung von Brandabschottungen jeglicher Art",
-      icon: Briefcase,
+      icon: Briefcase,  // Represents professional service and maintenance
       description:
         "Wartung und Reparaturen von Türen, Herstellung von Brandabschottungen und anderen brandschutztechnischen Einrichtungen. Umsetzung von Brandschauen. Unterstützung im Gebäudemanagement.",
     },
     {
       title: "Rauchsimulationen in Gebäuden",
-      icon: FileCheck,
+      icon: FileCheck,  // Represents testing and verification
       description:
         "Ausführung von Rauchsimulationen in Gebäuden; überprüfen der Rauchdichtigkeit von Wänden, Brandabschottungen usw.",
     },
     {
       title: "Referenzen",
-      icon: Blocks,
+      icon: Blocks,  // Represents multiple projects/references
       description:
         "Flughafen Stuttgart GmbH, Q2 Tower München, UKT Tübingen, Agentur für Arbeit Stuttgart, STRABAG, S21-ARGE Flughafentunnel u.v.m.",
     },
