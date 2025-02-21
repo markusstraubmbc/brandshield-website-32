@@ -1,3 +1,4 @@
+
 const Team = () => {
   const team = [
     {
@@ -10,6 +11,7 @@ const Team = () => {
         "Türenplanung (Rauch,-Brand.-Flucht und Sicherheitstüren)",
         "Fachplaner für vorbeugenden Brandschutz (TÜV Süd Akademie)",
         "Geprüfter Sachverständiger für vorbeugenden Brandschutz (EIPOS - Reg.-Nr. 1294-ST-01-2017)",
+        "Sachverständiger für vorbeugenden Brandschutz (EIPOS)",
         "Brandschutzbeauftragter (TÜV Süd Akademie)",
         "Projektmanagement (IHK)",
         "Qualitätssicherung im Bereich Brandschutz (Türen & Brandabschottungen)",
