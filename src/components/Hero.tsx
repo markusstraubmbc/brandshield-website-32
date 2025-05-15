@@ -32,6 +32,16 @@ const Hero = () => {
             Kontaktieren Sie uns
             <ArrowRight size={20} />
           </button>
+          
+          {/* Unsichtbare SEO-Überschriften */}
+          <div className="sr-only" aria-hidden="true">
+            <h3>Flucht und Rettungsplan Erstellung in Stuttgart und Bayern</h3>
+            <h3>Brandschutzhelfer Ausbildung und Zertifizierung in Baden-Württemberg</h3>
+            <h3>Professionelle Brandschutzunterweisung und Brandschutzkonzepte</h3>
+            <h3>Erstklassige Türenplanung Brandschutz und Fluchtwegeplanung</h3>
+            <h3>Brandschutzverordnung Baden-Württemberg Expertenberatung</h3>
+            <h3>Feuerwehrplan erstellen durch zertifizierte Brandschutzexperten</h3>
+          </div>
         </div>
       </div>
     </section>
