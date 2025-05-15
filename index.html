@@ -52,10 +52,129 @@
         "knowsAbout": ["Brandschutz Planung", "Rauch- und Brandschutztüren", "Fluchttürplanung", "Brandschutz JVA", "Brandschutz Flughafen", "Brandschutz Krankenhaus", "Flucht und Rettungsplan", "Brandschutzhelfer Ausbildung", "Brandschutzunterweisung", "Brandschutzkonzept erstellen"]
       }
     </script>
-    </head>
-    <body>
-      <div id="root"></div>
-      <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
+    <!-- Zusätzliche Schema.org Auszeichnung für Service-Angebote -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Brandschutzdienstleistungen",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Arnold Brandschutz"
+        },
+        "areaServed": ["Stuttgart", "Tübingen", "München", "Baden-Württemberg", "Bayern"],
+        "serviceOutput": "Professionelle Brandschutzkonzepte und Fluchtpläne",
+        "offers": {
+          "@type": "Offer",
+          "description": "Erstellung von Brandschutzkonzepten und Fluchtplänen nach aktuellen Normen",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Brandschutzdienstleistungen",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Brandschutzplanung"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Türenplanung"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Brandschutzhelfer Ausbildung"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Flucht und Rettungspläne"
+              }
+            }
+          ]
+        }
+      }
+    </script>
+    <!-- FAQ Schema für häufige Brandschutz-Fragen -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Wie viele Brandschutzhelfer braucht ein Unternehmen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nach den gesetzlichen Bestimmungen sollten ca. 5-10% der Belegschaft als Brandschutzhelfer ausgebildet sein. Die genaue Anzahl hängt jedoch von der Gefährdungsbeurteilung des Betriebs ab und kann je nach Branche und Unternehmensgröße variieren."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wer darf ein Brandschutzkonzept erstellen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Brandschutzkonzepte dürfen von qualifizierten Fachplanern erstellt werden, wie Brandschutzsachverständigen, Brandschutzingenieuren oder Architekten und Ingenieuren mit entsprechender Fachkunde im Brandschutz. In manchen Bundesländern gibt es spezielle Anforderungen an die Qualifikation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Sind Flucht- und Rettungspläne Pflicht?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, Flucht- und Rettungspläne sind nach der Arbeitsstättenverordnung (ArbStättV) und der ASR A2.3 für die meisten Betriebe verpflichtend. Sie müssen erstellt werden, wenn die Größe, Lage oder Art der Nutzung des Gebäudes dies erfordert."
+            }
+          }
+        ]
+      }
+    </script>
+    <!-- BreadcrumbList Schema für besseres SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Startseite",
+            "item": "https://brandschutz-arnold.de"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Dienstleistungen",
+            "item": "https://brandschutz-arnold.de/#services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Über uns",
+            "item": "https://brandschutz-arnold.de/#team"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Kontakt",
+            "item": "https://brandschutz-arnold.de/#contact"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

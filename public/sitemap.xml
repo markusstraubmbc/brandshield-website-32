@@ -10,7 +10,7 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  <!-- Virtual URLs for SEO purposes -->
+  <!-- Service Seiten für SEO-Optimierung -->
   <url>
     <loc>https://brandschutz-arnold.de/#services</loc>
     <lastmod>2025-05-15</lastmod>
@@ -28,5 +28,61 @@
     <lastmod>2025-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <!-- Virtuelle Dienstleistungsseiten für SEO -->
+  <url>
+    <loc>https://brandschutz-arnold.de/dienstleistungen/brandschutzplanung</loc>
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandschutz-arnold.de/dienstleistungen/tuerenplanung</loc>
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandschutz-arnold.de/dienstleistungen/brandschutzhelfer-ausbildung</loc>
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandschutz-arnold.de/dienstleistungen/flucht-und-rettungsplaene</loc>
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandschutz-arnold.de/dienstleistungen/brandschutzkonzepte</loc>
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandschutz-arnold.de/dienstleistungen/feuerwehr-einsatzplaene</loc>
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Regionale Seiten für lokales SEO -->
+  <url>
+    <loc>https://brandschutz-arnold.de/brandschutz-stuttgart</loc>
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandschutz-arnold.de/brandschutz-tuebingen</loc>
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brandschutz-arnold.de/tuerenplanung-muenchen</loc>
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
