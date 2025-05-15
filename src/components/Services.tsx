@@ -11,48 +11,48 @@ import {
 const Services = () => {
   const services = [
     {
-      title: "Begutachtung & Bestandsaufnahme & Türenplanung",
-      icon: DoorClosed,  // Most appropriate for door planning and assessment
+      title: "Begutachtung, Bestandsaufnahme & Türenplanung",
+      icon: DoorClosed,
       description:
-        "Professionelle Bestandsaufnahme und Planung von Rauch-, Brand-, Flucht- und Sicherheitstüren. Spezialisiert auf Flughäfen, JVAs, Krankenhäuser, öffentliche Gebäude u.v.m..",
+        "Professionelle Bestandsaufnahme und Planung von Rauch-, Brand-, Flucht- und Sicherheitstüren. Spezialisiert auf Flughäfen, JVAs, Krankenhäuser, öffentliche Gebäude und Gewerbebauten in Stuttgart, Tübingen, München und Umgebung.",
     },
     {
       title: "Fachbauleitung & Türtechnik",
-      icon: Building,  // Represents construction and building management
+      icon: Building,
       description:
-        "Planung/Umsetzung inkl. technischer Türausstattungen (z.B. Fluchttürterminal, Automatisierung von Türen, usw.) einschließlich Einbau, Sicherheitstechnik und Verkabelung. Kundenorientierte Lösungen.",
+        "Planung und Umsetzung von technischen Türausstattungen (z.B. Fluchttürterminal, Automatisierung von Türen) einschließlich Einbau, Sicherheitstechnik und Verkabelung. Kundenorientierte Lösungen für höchste Brandschutzsicherheit.",
     },
     {
-      title: "Projektmanagement; Qualitätssicherung & Compliance",
-      icon: Shield,  // Represents security and compliance
+      title: "Projektmanagement, Qualitätssicherung & Compliance",
+      icon: Shield,
       description:
-        "Professionelle Zusammenführung von Schnittstellen im Bereich Türen, Wände, Brandabschottungen, Brandschutzklappen u.v.m.. Baubegleitende Koordination, Überwachung sowie rechtskonforme Dokumentation und Unterstützung bei der Erfüllung gesetzlicher Betreiberpflichten.",
+        "Professionelle Zusammenführung von Schnittstellen im Bereich Türen, Wände, Brandabschottungen und Brandschutzklappen. Baubegleitende Koordination, Überwachung sowie rechtskonforme Dokumentation und Unterstützung bei der Erfüllung gesetzlicher Betreiberpflichten.",
     },
     {
-      title: "Wartung & Instandhaltung; Herstellung von Brandabschottungen jeglicher Art",
-      icon: Briefcase,  // Represents professional service and maintenance
+      title: "Wartung, Instandhaltung & Herstellung von Brandabschottungen",
+      icon: Briefcase,
       description:
-        "Wartung und Reparaturen von Türen, Herstellung von Brandabschottungen und anderen brandschutztechnischen Einrichtungen. Umsetzung von Brandschauen. Unterstützung im Gebäudemanagement.",
+        "Wartung und Reparaturen von Brandschutztüren, Herstellung von Brandabschottungen und anderen brandschutztechnischen Einrichtungen. Umsetzung von Brandschauen und Unterstützung im Gebäudemanagement für langfristige Sicherheit.",
     },
     {
       title: "Rauchsimulationen in Gebäuden",
-      icon: FileCheck,  // Represents testing and verification
+      icon: FileCheck,
       description:
-        "Ausführung von Rauchsimulationen in Gebäuden; überprüfen der Rauchdichtigkeit von Wänden, Brandabschottungen usw.",
+        "Ausführung von Rauchsimulationen in Gebäuden; Überprüfung der Rauchdichtigkeit von Wänden, Brandabschottungen und anderen baulichen Elementen. Zertifizierte Gutachten durch unsere Sachverständigen.",
     },
     {
       title: "Referenzen",
-      icon: Blocks,  // Represents multiple projects/references
+      icon: Blocks,
       description:
-        "Flughafen Stuttgart GmbH, Q2 Tower München, UKT Tübingen, Agentur für Arbeit Stuttgart, STRABAG, S21-ARGE Flughafentunnel u.v.m.",
+        "Flughafen Stuttgart GmbH, Q2 Tower München, UKT Tübingen, Agentur für Arbeit Stuttgart, STRABAG, S21-ARGE Flughafentunnel und viele weitere namhafte Kunden vertrauen auf unsere Expertise im Brandschutz.",
     },
   ];
 
   return (
-    <section className="py-16 bg-muted">
+    <section id="services" className="py-16 bg-muted">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl lg:text-4xl font-bold text-center text-secondary mb-12">
-          Unsere Dienstleistungen
+          Unsere Dienstleistungen im Brandschutz
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {services.map((service) => (
@@ -71,7 +71,7 @@ const Services = () => {
           ))}
         </div>
         <p className="text-center text-secondary mt-12 text-lg">
-          Gerne beraten wir Sie in einem persönlichen Gespräch!
+          Gerne beraten wir Sie in einem persönlichen Gespräch zu Ihren individuellen Brandschutzanforderungen!
         </p>
       </div>
     </section>
