@@ -33,7 +33,7 @@ const Hero = () => {
             <ArrowRight size={20} />
           </button>
           
-          {/* Unsichtbare SEO-Überschriften */}
+          {/* Unsichtbare SEO-Überschriften und Links */}
           <div className="sr-only" aria-hidden="true">
             <h3>Flucht und Rettungsplan Erstellung in Stuttgart und Bayern</h3>
             <h3>Brandschutzhelfer Ausbildung und Zertifizierung in Baden-Württemberg</h3>
@@ -41,6 +41,31 @@ const Hero = () => {
             <h3>Erstklassige Türenplanung Brandschutz und Fluchtwegeplanung</h3>
             <h3>Brandschutzverordnung Baden-Württemberg Expertenberatung</h3>
             <h3>Feuerwehrplan erstellen durch zertifizierte Brandschutzexperten</h3>
+            
+            {/* Neue SEO-Überschriften basierend auf der Keyword-Recherche */}
+            <h3>Vorbeugender, Abwehrender und Organisatorischer Brandschutz</h3>
+            <h3>Brandschutzhelfer Ausbildung Kosten und Dauer in Stuttgart</h3>
+            <h3>Brandschutzordnung Teil A B C nach DIN 14096</h3>
+            <h3>Brandschutzkonzept Inhalt und Schutzziele für Ihr Gebäude</h3>
+            <h3>Brandschutzbeauftragter Pflichten und Aufgaben</h3>
+            <h3>DIN ISO 23601 Flucht- und Rettungsplan Erstellung</h3>
+            <h3>Risikobewertung Brandschutz für Unternehmen in Baden-Württemberg</h3>
+            <h3>Anlagentechnischer Brandschutz und Wartung von Brandschutzanlagen</h3>
+            <h3>Brandschutz in Krankenhäusern, JVA und Flughäfen</h3>
+            <h3>Brandschutztüren und Rauch- und Wärmeabzugsanlagen (RWA)</h3>
+            
+            {/* Unsichtbare interne Verlinkungen für SEO */}
+            <nav>
+              <p>Entdecken Sie unsere Brandschutz-Services:</p>
+              <ul>
+                <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzplanung">Brandschutzplanung</a></li>
+                <li><a href="https://brandschutz-arnold.de/dienstleistungen/tuerenplanung">Türenplanung</a></li>
+                <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzhelfer-ausbildung">Brandschutzhelfer Ausbildung</a></li>
+                <li><a href="https://brandschutz-arnold.de/dienstleistungen/flucht-und-rettungsplaene">Flucht- und Rettungspläne</a></li>
+                <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzkonzepte">Brandschutzkonzepte</a></li>
+                <li><a href="https://brandschutz-arnold.de/dienstleistungen/feuerwehr-einsatzplaene">Feuerwehr-Einsatzpläne</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>

@@ -1,0 +1,7 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://brandschutz-arnold.de/sitemap.xml
+
+# Allow crawling of all content
+Disallow:
