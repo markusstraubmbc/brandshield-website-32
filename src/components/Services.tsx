@@ -14,10 +14,10 @@ const Services = () => {
       title: "Begutachtung, Bestandsaufnahme & Türenplanung",
       icon: DoorClosed,
       description:
-        "Professionelle Bestandsaufnahme und Planung von Rauch-, Brand-, Flucht- und Sicherheitstüren. Spezialisiert auf Flughäfen, JVAs, Krankenhäuser, öffentliche Gebäude und Gewerbebauten in Stuttgart, Tübingen, München und Umgebung.",
+        "Professionelle Bestandsaufnahme und Planung von Rauch-, Brand-, Flucht- und Sicherheitstüren. Spezialisiert auf Flughäfen, JVAs, Krankenhäuser, öffentliche Gebäude und Gewerbebauten.",
     },
     {
-      title: "Fachbauleitung & Türtechnik",
+      title: "Fachbauleitung Brandschutz & Türtechnik",
       icon: Building,
       description:
         "Planung und Umsetzung von technischen Türausstattungen (z.B. Fluchttürterminal, Automatisierung von Türen) einschließlich Einbau, Sicherheitstechnik und Verkabelung. Kundenorientierte Lösungen für höchste Brandschutzsicherheit.",
@@ -29,22 +29,22 @@ const Services = () => {
         "Professionelle Zusammenführung von Schnittstellen im Bereich Türen, Wände, Brandabschottungen und Brandschutzklappen. Baubegleitende Koordination, Überwachung sowie rechtskonforme Dokumentation und Unterstützung bei der Erfüllung gesetzlicher Betreiberpflichten.",
     },
     {
-      title: "Wartung, Instandhaltung & Herstellung von Brandabschottungen",
+      title: "Einbau, Wartung, Instandhaltung von Türen & Herstellung von Brandabschottungen",
       icon: Briefcase,
       description:
         "Wartung und Reparaturen von Brandschutztüren, Herstellung von Brandabschottungen und anderen brandschutztechnischen Einrichtungen. Umsetzung von Brandschauen und Unterstützung im Gebäudemanagement für langfristige Sicherheit.",
     },
     {
-      title: "Rauchsimulationen in Gebäuden",
+      title: "Zertifizierte Gutachten durch unsere Sachverständigentätigkeit",
       icon: FileCheck,
       description:
         "Ausführung von Rauchsimulationen in Gebäuden; Überprüfung der Rauchdichtigkeit von Wänden, Brandabschottungen und anderen baulichen Elementen. Zertifizierte Gutachten durch unsere Sachverständigen.",
     },
     {
-      title: "Referenzen",
+      title: "Weitere Leistungen",
       icon: Blocks,
       description:
-        "Flughafen Stuttgart GmbH, Q2 Tower München, UKT Tübingen, Agentur für Arbeit Stuttgart, STRABAG, S21-ARGE Flughafentunnel und viele weitere namhafte Kunden vertrauen auf unsere Expertise im Brandschutz.",
+        "Komplette Umsetzung aus Brandschutzbegehungen\nBrandschutz & Sabotageschutz an Stromleitungen (Außenbereich Infrastruktur)\nTechnisches Gebäudemanagement",
     },
   ];
 
@@ -66,7 +66,7 @@ const Services = () => {
               <h3 className="text-xl font-bold text-secondary mb-3">
                 {service.title}
               </h3>
-              <p className="text-secondary/80">{service.description}</p>
+              <p className="text-secondary/80 whitespace-pre-line">{service.description}</p>
             </div>
           ))}
         </div>

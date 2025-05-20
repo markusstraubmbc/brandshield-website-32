@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl lg:text-5xl font-bold text-secondary mb-6 animate-fadeIn">
-            Professioneller Brandschutz für Ihre Sicherheit in Stuttgart, Tübingen und München
+            Professioneller Brandschutz für Ihre Sicherheit
           </h1>
           <h2 className="text-2xl lg:text-3xl font-semibold text-secondary/90 mb-4 animate-fadeIn">
             Brandschutzplanung, Türenplanung und Qualitätssicherung von zertifizierten Experten
