@@ -1,3 +1,4 @@
+
 import { Mail, Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
@@ -49,6 +50,9 @@ const Contact = () => {
                 </a>
                 <p className="text-secondary/80 pt-4">
                   Umsatzsteuer-Identifikationsnummer: 97003/66663
+                </p>
+                <p className="text-secondary/80">
+                  USt-IdNr. DE 326610644
                 </p>
               </div>
             </div>
