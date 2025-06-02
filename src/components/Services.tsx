@@ -1,4 +1,3 @@
-
 import {
   DoorClosed,
   Building,
@@ -11,10 +10,10 @@ import {
 const Services = () => {
   const services = [
     {
-      title: "Begutachtung, Bestandsaufnahme & Türenplanung",
+      title: "Brandschutztüren/Türenplanung",
       icon: DoorClosed,
       description:
-        "Professionelle Bestandsaufnahme und Planung von Rauch-, Brand-, Flucht- und Sicherheitstüren. Spezialisiert auf Flughäfen, JVAs, Krankenhäuser, öffentliche Gebäude und Gewerbebauten.",
+        "Türplanung jeglicher Art\nPlanung und Umsetzung von technischen Türausstattungen. (z.Bsp. Fluchttürterminals, Automatisierung von Türen), einschließlich Sicherheitstechnik und Verkabelung.\nBegutachtung/Bestandsaufnahme jeglicher Türen.\nEinbau, Wartung Instandhaltung von Rauch-, Brand-, Flucht- und Sicherheitstüren.",
     },
     {
       title: "Fachbauleitung Brandschutz & Türtechnik",

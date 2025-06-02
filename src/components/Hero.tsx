@@ -20,7 +20,7 @@ const Hero = () => {
             Brandschutzplanung, Türenplanung und Qualitätssicherung von zertifizierten Experten
           </h2>
           <p className="text-lg lg:text-xl text-secondary/80 mb-8 animate-fadeIn">
-            Seit über 25 Jahren Ihr verlässlicher Partner für Brandschutz- und
+            Seit über 30 Jahre Ihr verlässlicher Partner für Brandschutz- und
             Fluchtwegslösungen. Wir garantieren höchste Qualität und Sicherheit
             für Ihr Gebäude durch TÜV-zertifizierte Sachverständige.
           </p>
