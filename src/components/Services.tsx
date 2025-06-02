@@ -1,3 +1,4 @@
+
 import {
   DoorClosed,
   Building,
@@ -5,6 +6,7 @@ import {
   Briefcase,
   FileCheck,
   Blocks,
+  Award,
 } from "lucide-react";
 
 const Services = () => {
@@ -16,35 +18,48 @@ const Services = () => {
         "Türplanung jeglicher Art\nPlanung und Umsetzung von technischen Türausstattungen. (z.Bsp. Fluchttürterminals, Automatisierung von Türen), einschließlich Sicherheitstechnik und Verkabelung.\nBegutachtung/Bestandsaufnahme jeglicher Türen.\nEinbau, Wartung Instandhaltung von Rauch-, Brand-, Flucht- und Sicherheitstüren.",
     },
     {
-      title: "Fachbauleitung Brandschutz & Türtechnik",
+      title: "Fachbauleitung Brandschutz",
       icon: Building,
       description:
-        "Planung und Umsetzung von technischen Türausstattungen (z.B. Fluchttürterminal, Automatisierung von Türen) einschließlich Einbau, Sicherheitstechnik und Verkabelung. Kundenorientierte Lösungen für höchste Brandschutzsicherheit.",
+        "Professionelle Zusammenführung von Schnittstellen im Bereich Türtechnik, Wände & Brandabschottungen und Brandschutzklappen.",
     },
     {
-      title: "Projektmanagement, Qualitätssicherung & Compliance",
+      title: "Brandschutzbegehungen",
       icon: Shield,
       description:
-        "Professionelle Zusammenführung von Schnittstellen im Bereich Türen, Wände, Brandabschottungen und Brandschutzklappen. Baubegleitende Koordination, Überwachung sowie rechtskonforme Dokumentation und Unterstützung bei der Erfüllung gesetzlicher Betreiberpflichten.",
+        "Komplette Umsetzung aus Brandschutzbegehungen von Brandschauen und Unterstützung im Gebäudemanagement für langfristige Sicherheit.",
     },
     {
-      title: "Einbau, Wartung, Instandhaltung von Türen & Herstellung von Brandabschottungen",
+      title: "Brandabschottungen",
       icon: Briefcase,
       description:
-        "Wartung und Reparaturen von Brandschutztüren, Herstellung von Brandabschottungen und anderen brandschutztechnischen Einrichtungen. Umsetzung von Brandschauen und Unterstützung im Gebäudemanagement für langfristige Sicherheit.",
+        "Aufnahme und Begutachtung jeglicher Brandabschottungen. Herstellung und Einbau von Brandabschottungen.",
     },
     {
-      title: "Zertifizierte Gutachten durch unsere Sachverständigentätigkeit",
+      title: "Zertifizierte rechtskonforme Brandschutzgutachten",
       icon: FileCheck,
       description:
-        "Ausführung von Rauchsimulationen in Gebäuden; Überprüfung der Rauchdichtigkeit von Wänden, Brandabschottungen und anderen baulichen Elementen. Zertifizierte Gutachten durch unsere Sachverständigen.",
+        "Qualitätssicherung im Bereich Türen\nQualitätssicherung im Bereich Brandabschottungen\nErstellung von rechtskonformer Dokumentation der umgesetzten Leistungen",
     },
     {
-      title: "Weitere Leistungen",
+      title: "Weitere Leistungen:",
       icon: Blocks,
       description:
-        "Komplette Umsetzung aus Brandschutzbegehungen\nBrandschutz & Sabotageschutz an Stromleitungen (Außenbereich Infrastruktur)\nTechnisches Gebäudemanagement",
+        "Rauchsimulationen\nRauchtest von Wänden / Abschottungen u.v.m\nBrandschutz & Sabotageschutz an Stromleitungen (Außenbereich Infrastruktur)\nUnterstützung bei den gesetzlichen Betreiberpflichten\nProjektmanagement: Umsetzung von Türen, Wände, Brandabschottungen als Komplettleistung",
     },
+  ];
+
+  const references = [
+    "Flughafen Stuttgart GmbH",
+    "Q2 Tower München", 
+    "UKT Tübingen",
+    "Agentur für Arbeit Stuttgart",
+    "STRABAG",
+    "S21-ARGE Flughafentunnel",
+    "JVAs",
+    "Krankenhäuser", 
+    "Weiler & Eberhardt Depotverwaltung AG",
+    "u.v.m."
   ];
 
   return (
@@ -69,6 +84,31 @@ const Services = () => {
             </div>
           ))}
         </div>
+        
+        {/* Referenzen Bereich */}
+        <div className="mt-16 max-w-4xl mx-auto">
+          <div className="bg-white rounded-lg p-8 shadow-md">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                <Award className="w-6 h-6 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold text-secondary">
+                Referenzen
+              </h3>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {references.map((reference, index) => (
+                <div
+                  key={index}
+                  className="text-secondary/80 py-2 px-4 bg-muted/50 rounded-md text-center"
+                >
+                  {reference}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        
         <p className="text-center text-secondary mt-12 text-lg">
           Gerne beraten wir Sie in einem persönlichen Gespräch zu Ihren individuellen Brandschutzanforderungen!
         </p>
