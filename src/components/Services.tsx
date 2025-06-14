@@ -8,6 +8,7 @@ import {
   Blocks,
   Award,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   const services = [
@@ -16,18 +17,21 @@ const Services = () => {
       icon: DoorClosed,
       description:
         "Türplanung jeglicher Art\nPlanung und Umsetzung von technischen Türausstattungen. (z.Bsp. Fluchttürterminals, Automatisierung von Türen), einschließlich Sicherheitstechnik und Verkabelung.\nBegutachtung/Bestandsaufnahme jeglicher Türen.\nEinbau, Wartung Instandhaltung von Rauch-, Brand-, Flucht- und Sicherheitstüren.",
+      link: "/dienstleistungen/tueren-brandschutz"
     },
     {
       title: "Fachbauleitung Brandschutz",
       icon: Building,
       description:
         "Professionelle Zusammenführung von Schnittstellen im Bereich Türtechnik, Wände & Brandabschottungen und Brandschutzklappen.",
+      link: "/dienstleistungen/brandschutzberatung"
     },
     {
       title: "Brandschutzbegehungen",
       icon: Shield,
       description:
         "Komplette Umsetzung aus Brandschutzbegehungen von Brandschauen und Unterstützung im Gebäudemanagement für langfristige Sicherheit.",
+      link: "/dienstleistungen/brandschutzbegehungen"
     },
     {
       title: "Brandabschottungen",
@@ -80,7 +84,15 @@ const Services = () => {
               <h3 className="text-xl font-bold text-secondary mb-3">
                 {service.title}
               </h3>
-              <p className="text-secondary/80 whitespace-pre-line">{service.description}</p>
+              <p className="text-secondary/80 whitespace-pre-line mb-4">{service.description}</p>
+              {service.link && (
+                <Link
+                  to={service.link}
+                  className="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors"
+                >
+                  Mehr erfahren →
+                </Link>
+              )}
             </div>
           ))}
         </div>
@@ -106,6 +118,33 @@ const Services = () => {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+        
+        {/* Navigation zu weiteren Seiten */}
+        <div className="mt-16 text-center">
+          <h3 className="text-2xl font-bold text-secondary mb-6">
+            Entdecken Sie unsere spezialisierten Dienstleistungen
+          </h3>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link
+              to="/dienstleistungen/brandschutzberatung"
+              className="bg-primary text-white px-6 py-3 rounded-md hover:bg-primary/90 transition-colors"
+            >
+              Brandschutzberatung
+            </Link>
+            <Link
+              to="/dienstleistungen/brandschutzkonzepte"
+              className="bg-primary text-white px-6 py-3 rounded-md hover:bg-primary/90 transition-colors"
+            >
+              Brandschutzkonzepte
+            </Link>
+            <Link
+              to="/dienstleistungen/schulungen"
+              className="bg-primary text-white px-6 py-3 rounded-md hover:bg-primary/90 transition-colors"
+            >
+              Schulungen & Unterweisungen
+            </Link>
           </div>
         </div>
         
