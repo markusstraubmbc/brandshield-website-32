@@ -1,4 +1,3 @@
-
 const SeoContent = () => {
   return (
     <div className="hidden" aria-hidden="true">
@@ -230,14 +229,20 @@ const SeoContent = () => {
           </p>
         </section>
 
-        {/* Random Verlinkungen für SEO - unsichtbar */}
+        {/* Erweiterte Navigation zu SEO-Seiten */}
         <nav className="sr-only">
           <ul>
             <li><a href="https://brandschutz-arnold.de/brandschutz-stuttgart">Brandschutz Stuttgart</a></li>
+            <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzplanung">Brandschutzplanung</a></li>
             <li><a href="https://brandschutz-arnold.de/dienstleistungen/tuerenplanung">Türenplanung Experte</a></li>
             <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzhelfer-ausbildung">Brandschutzhelfer Ausbildung</a></li>
             <li><a href="https://brandschutz-arnold.de/dienstleistungen/flucht-und-rettungsplaene">Flucht- und Rettungspläne</a></li>
+            <li><a href="https://brandschutz-arnold.de/dienstleistungen/feuerwehr-einsatzplaene">Feuerwehr Einsatzpläne</a></li>
             <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzkonzepte">Brandschutzkonzept erstellen</a></li>
+            <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzberatung">Brandschutzberatung</a></li>
+            <li><a href="https://brandschutz-arnold.de/dienstleistungen/tueren-brandschutz">Türen Brandschutz</a></li>
+            <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzbegehungen">Brandschutzbegehungen</a></li>
+            <li><a href="https://brandschutz-arnold.de/dienstleistungen/schulungen">Schulungen</a></li>
             <li><a href="https://brandschutz-arnold.de/wissen/wie-viele-brandschutzhelfer-braucht-ein-unternehmen">Wie viele Brandschutzhelfer?</a></li>
             <li><a href="https://brandschutz-arnold.de/wissen/wer-darf-brandschutzkonzepte-erstellen">Wer darf Brandschutzkonzepte erstellen?</a></li>
             <li><a href="https://brandschutz-arnold.de/branchen/brandschutz-krankenhaeuser">Brandschutz für Krankenhäuser</a></li>
