@@ -25,7 +25,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img
-              src="/lovable-uploads/6c3aea04-3102-4e05-b5eb-26066f002bdc.png"
+              src="/lovable-uploads/89e68df5-d32c-408f-a278-72aff11ee3e1.png"
               alt="Arnold Brandschutz Logo - Experte für Brandschutz und Fluchtwegplanung in Stuttgart und Umgebung"
               className="h-14 lg:h-16" // h-14 for mobile (increased from h-12), h-16 for desktop
             />
