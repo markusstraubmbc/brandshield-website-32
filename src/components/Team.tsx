@@ -1,22 +1,6 @@
 const Team = () => {
   const team = [
     {
-      name: "Jürgen Arnold",
-      title: "Experte für Brandschutz und zertifizierter Spezialist",
-      image: "/lovable-uploads/f570c998-36eb-4c03-b873-58bec8ef243a.png",
-      description:
-        "Mit über 25 Jahren Erfahrung in der Brandschutzplanung und -beratung. Zertifizierter Sachverständiger für vorbeugenden Brandschutz.",
-      qualifications: [
-        "Türenplanung (Rauch,-Brand.-Flucht und Sicherheitstüren)",
-        "Fachplaner für vorbeugenden Brandschutz (TÜV Süd Akademie)",
-        "Geprüfter Sachverständiger für vorbeugenden Brandschutz (EIPOS - Reg.-Nr. 1294-ST-01-2017)",
-        "Brandschutzbeauftragter (TÜV Süd Akademie)",
-        "Projektmanagement (IHK)",
-        "Qualitätssicherung im Bereich Brandschutz (Türen & Brandabschottungen)",
-        "Rauchsimulationen in Gebäuden"
-      ]
-    },
-    {
       name: "Tatjana Arnold",
       title: "Administration und Büroleitung",
       image: "/lovable-uploads/101e1314-6274-415b-b2ce-23488969b23c.png",
@@ -50,13 +34,6 @@ const Team = () => {
                 </h3>
                 <p className="text-primary font-medium mb-4">{member.title}</p>
                 <p className="text-secondary/80">{member.description}</p>
-                {member.qualifications && (
-                  <ul className="mt-4 text-left list-disc pl-6 text-secondary/80">
-                    {member.qualifications.map((qual, index) => (
-                      <li key={index} className="mb-1">{qual}</li>
-                    ))}
-                  </ul>
-                )}
               </div>
             </div>
           ))}

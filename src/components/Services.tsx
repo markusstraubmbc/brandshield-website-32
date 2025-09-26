@@ -15,37 +15,37 @@ const Services = () => {
       title: "Brandschutztüren/Türenplanung",
       icon: DoorClosed,
       description:
-        "Türplanung jeglicher Art\nPlanung und Umsetzung von technischen Türausstattungen. (z.Bsp. Fluchttürterminals, Automatisierung von Türen), einschließlich Sicherheitstechnik und Verkabelung.\nBegutachtung/Bestandsaufnahme jeglicher Türen.\nEinbau, Wartung Instandhaltung von Rauch-, Brand-, Flucht- und Sicherheitstüren.",
+        "Begutachtung/Bestandsaufnahme jeglicher Türen.\nPlanung & Einbau von Rauch-, Brand-, Flucht- & Sicherheitstüren.\nUmsetzung von technischen Türausstattungen wie Fluchttürterminals & Automatisierung von Türen, einschließlich Sicherheitstechnik & Verkabelung.\nWartung, Instandhaltung von Rauch-, Brand-, Flucht- und Sicherheitstüren.",
     },
     {
       title: "Fachbauleitung Brandschutz",
       icon: Building,
       description:
-        "Professionelle Zusammenführung von Schnittstellen im Bereich Türtechnik, Wände & Brandabschottungen und Brandschutzklappen.",
+        "Schnittstellenkoordination: Professionelle Steuerung und Überwachung der Gewerke Türtechnik, Wände, Brandabschottungen & Brandschutzklappen.\nProjektmanagement: Umsetzung von Türen, Wänden, Brandabschottungen als GU-Komplettleistung.",
     },
     {
       title: "Brandschutzbegehungen",
       icon: Shield,
       description:
-        "Komplette Umsetzung aus Brandschutzbegehungen von Brandschauen und Unterstützung im Gebäudemanagement für langfristige Sicherheit.",
+        "Mängelbehebung: Systematische Identifikation & Beseitigung von Gefahrenquellen nach Brandschutzbegehungen und Brandschauen.\nRechtssicherheit: Minimierung von Haftungsrisiken & Einhaltung gesetzlicher Auflagen.",
     },
     {
       title: "Brandabschottungen",
       icon: Briefcase,
       description:
-        "Aufnahme und Begutachtung jeglicher Brandabschottungen. Herstellung und Einbau von Brandabschottungen.",
+        "Aufnahme & Begutachtung jeglicher Brandabschottung.\nFachgerechte Ausführung: Herstellung & Einbau von Brandabschottungen.",
     },
     {
       title: "Zertifizierte rechtskonforme Brandschutzgutachten",
       icon: FileCheck,
       description:
-        "Qualitätssicherung im Bereich Türen\nQualitätssicherung im Bereich Brandabschottungen\nErstellung von rechtskonformer Dokumentation der umgesetzten Leistungen",
+        "Qualitätssicherung: Überprüfung der korrekten Ausführung von Brandschutztüren & Abschottungen\nRechtskonforme Dokumentation: Erstellung von Gutachten zur Vorlage bei Behörden\nTransparenz & Sicherheit: Umfassende Projektdokumentation als Nachweis für die gesetzlichen Betreiberpflichten.",
     },
     {
-      title: "Weitere Leistungen:",
+      title: "Weitere Leistungen",
       icon: Blocks,
       description:
-        "Rauchsimulationen\nRauchtest von Wänden / Abschottungen u.v.m\nBrandschutz & Sabotageschutz an Stromleitungen (Außenbereich Infrastruktur)\nUnterstützung bei den gesetzlichen Betreiberpflichten\nProjektmanagement: Umsetzung von Türen, Wände, Brandabschottungen als Komplettleistung",
+        "Rauchsimulation & Tests: Durchführung von Rauchtests an Wänden, Abschottungen u.v.m.\nSabotageschutz: Brandschutz für die Infrastruktur (Stromleitungen u.v.m.) im Außenbereich.",
     },
   ];
 
