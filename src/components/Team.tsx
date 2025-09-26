@@ -5,7 +5,7 @@ const Team = () => {
       title: "Experte für Brandschutz und zertifizierter Spezialist",
       image: "/lovable-uploads/f570c998-36eb-4c03-b873-58bec8ef243a.png",
       description:
-        "Mit über 25 Jahren Erfahrung in der Brandschutzplanung und -beratung. Zertifizierter Sachverständiger für vorbeugenden Brandschutz.",
+        "30 Jahren Erfahrung in der Brandschutzberatung Planung und Umsetzung.",
       qualifications: [
         "Türenplanung (Rauch,-Brand.-Flucht und Sicherheitstüren)",
         "Fachplaner für vorbeugenden Brandschutz (TÜV Süd Akademie)",

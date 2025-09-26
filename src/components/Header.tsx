@@ -29,6 +29,11 @@ const Header = () => {
               alt="Arnold Brandschutz Logo - Experte für Brandschutz und Fluchtwegplanung in Stuttgart und Umgebung"
               className="h-14 lg:h-16" // h-14 for mobile (increased from h-12), h-16 for desktop
             />
+            <div className="ml-4 hidden md:block">
+              <p className="text-primary font-medium italic text-lg">
+                „Brandschutz Arnold –<br />Brandschutz sicher"
+              </p>
+            </div>
           </div>
 
           {/* Contact Info - Desktop */}

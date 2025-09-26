@@ -17,11 +17,10 @@ const Hero = () => {
             Professioneller Brandschutz für Ihre Sicherheit
           </h1>
           <h2 className="text-2xl lg:text-3xl font-semibold text-secondary/90 mb-4 animate-fadeIn">
-            Brandschutzplanung, Türenplanung und Qualitätssicherung von zertifizierten Experten
+            Seit über 30 Jahren Ihr verlässlicher Partner für Brandschutz. Wir garantieren höchste Qualität und Sicherheit für Ihr Gebäude durch TÜV-zertifizierte Sachverständige.
           </h2>
           <p className="text-lg lg:text-xl text-secondary/80 mb-8 animate-fadeIn">
-            Seit über 30 Jahre Ihr verlässlicher Partner für Brandschutz- und
-            Fluchtwegslösungen. Wir garantieren höchste Qualität und Sicherheit
+            Seit über 30 Jahren Ihr verlässlicher Partner für Brandschutz. Wir garantieren höchste Qualität und Sicherheit
             für Ihr Gebäude durch TÜV-zertifizierte Sachverständige.
           </p>
           <button
@@ -33,37 +32,62 @@ const Hero = () => {
             <ArrowRight size={20} />
           </button>
           
-          {/* Unsichtbare SEO-Überschriften und Links */}
+          {/* Optimierte SEO-Überschriften und Links */}
           <div className="sr-only" aria-hidden="true">
-            <h3>Flucht und Rettungsplan Erstellung in Stuttgart und Bayern</h3>
-            <h3>Brandschutzhelfer Ausbildung und Zertifizierung in Baden-Württemberg</h3>
-            <h3>Professionelle Brandschutzunterweisung und Brandschutzkonzepte</h3>
-            <h3>Erstklassige Türenplanung Brandschutz und Fluchtwegeplanung</h3>
-            <h3>Brandschutzverordnung Baden-Württemberg Expertenberatung</h3>
-            <h3>Feuerwehrplan erstellen durch zertifizierte Brandschutzexperten</h3>
+            <h3>Brandschutz Arnold Stuttgart - Ihr TÜV-zertifizierter Brandschutz Experte seit 30 Jahren</h3>
+            <h3>Flucht und Rettungsplan Erstellung nach DIN ISO 23601 in Stuttgart und Baden-Württemberg</h3>
+            <h3>Brandschutzhelfer Ausbildung Kosten und Zertifizierung in Baden-Württemberg</h3>
+            <h3>Professionelle Brandschutzunterweisung und Brandschutzkonzepte für Unternehmen</h3>
+            <h3>Erstklassige Türenplanung Brandschutz und Fluchtwegeplanung in Stuttgart</h3>
+            <h3>Brandschutzverordnung Baden-Württemberg Expertenberatung und Umsetzung</h3>
+            <h3>Feuerwehrplan erstellen durch zertifizierte Brandschutzexperten Stuttgart</h3>
+            <h3>Brandschutzgutachten rechtssicher erstellen - Brandschutz Arnold</h3>
+            <h3>Brandschutztüren Wartung und Instandhaltung in Stuttgart und Umgebung</h3>
             
-            {/* Neue SEO-Überschriften basierend auf der Keyword-Recherche */}
-            <h3>Vorbeugender, Abwehrender und Organisatorischer Brandschutz</h3>
-            <h3>Brandschutzhelfer Ausbildung Kosten und Dauer in Stuttgart</h3>
-            <h3>Brandschutzordnung Teil A B C nach DIN 14096</h3>
-            <h3>Brandschutzkonzept Inhalt und Schutzziele für Ihr Gebäude</h3>
-            <h3>Brandschutzbeauftragter Pflichten und Aufgaben</h3>
-            <h3>DIN ISO 23601 Flucht- und Rettungsplan Erstellung</h3>
+            {/* Erweiterte SEO-Keywords für bessere Sichtbarkeit */}
+            <h3>Vorbeugender, Abwehrender und Organisatorischer Brandschutz Stuttgart</h3>
+            <h3>Brandschutzhelfer Ausbildung Kosten und Dauer Stuttgart Baden-Württemberg</h3>
+            <h3>Brandschutzordnung Teil A B C nach DIN 14096 professionell erstellen</h3>
+            <h3>Brandschutzkonzept Inhalt und Schutzziele für Ihr Gebäude Stuttgart</h3>
+            <h3>Brandschutzbeauftragter Pflichten und Aufgaben Baden-Württemberg</h3>
+            <h3>DIN ISO 23601 Flucht- und Rettungsplan Erstellung und Aktualisierung</h3>
             <h3>Risikobewertung Brandschutz für Unternehmen in Baden-Württemberg</h3>
             <h3>Anlagentechnischer Brandschutz und Wartung von Brandschutzanlagen</h3>
-            <h3>Brandschutz in Krankenhäusern, JVA und Flughäfen</h3>
-            <h3>Brandschutztüren und Rauch- und Wärmeabzugsanlagen (RWA)</h3>
+            <h3>Brandschutz in Krankenhäusern, JVA und Flughäfen - Spezialisten Stuttgart</h3>
+            <h3>Brandschutztüren und Rauch- und Wärmeabzugsanlagen (RWA) Installation</h3>
+            <h3>Brandabschottungen fachgerecht planen und ausführen Stuttgart</h3>
+            <h3>Fachbauleitung Brandschutz und Schnittstellenkoordination</h3>
+            <h3>Brandschutzbegehungen professionell durchführen Stuttgart</h3>
+            <h3>Sabotageschutz für Infrastruktur und Stromleitungen Außenbereich</h3>
+            <h3>Rauchsimulation und Rauchtests für Wände und Abschottungen</h3>
+            
+            {/* Geografische SEO-Erweiterungen */}
+            <h3>Brandschutz Stuttgart Mitte, Bad Cannstatt, Vaihingen, Degerloch</h3>
+            <h3>Brandschutz Esslingen, Ludwigsburg, Böblingen, Sindelfingen</h3>
+            <h3>Brandschutz Reutlingen, Tübingen, Pforzheim, Heilbronn</h3>
+            <h3>Brandschutz Bayern München, Nürnberg, Augsburg, Würzburg</h3>
+            
+            {/* Branchenspezifische SEO-Keywords */}
+            <h3>Brandschutz Gewerbeimmobilien, Bürogebäude, Produktionsstätten</h3>
+            <h3>Brandschutz Gesundheitswesen, Altenheime, Pflegeeinrichtungen</h3>
+            <h3>Brandschutz Bildungseinrichtungen, Schulen, Universitäten</h3>
+            <h3>Brandschutz Einzelhandel, Einkaufszentren, Supermärkte</h3>
+            <h3>Brandschutz Industrieanlagen, Chemieunternehmen, Fabriken</h3>
             
             {/* Unsichtbare interne Verlinkungen für SEO */}
             <nav>
-              <p>Entdecken Sie unsere Brandschutz-Services:</p>
+              <p>Entdecken Sie unsere Brandschutz-Services in Stuttgart und Baden-Württemberg:</p>
               <ul>
-                <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzplanung">Brandschutzplanung</a></li>
-                <li><a href="https://brandschutz-arnold.de/dienstleistungen/tuerenplanung">Türenplanung</a></li>
-                <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzhelfer-ausbildung">Brandschutzhelfer Ausbildung</a></li>
-                <li><a href="https://brandschutz-arnold.de/dienstleistungen/flucht-und-rettungsplaene">Flucht- und Rettungspläne</a></li>
-                <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzkonzepte">Brandschutzkonzepte</a></li>
-                <li><a href="https://brandschutz-arnold.de/dienstleistungen/feuerwehr-einsatzplaene">Feuerwehr-Einsatzpläne</a></li>
+                <li><a href="/brandschutzplanung" title="Brandschutzplanung Stuttgart">Brandschutzplanung</a></li>
+                <li><a href="/tuerenplanung" title="Türenplanung Brandschutz">Türenplanung</a></li>
+                <li><a href="/brandschutzhelfer-ausbildung" title="Brandschutzhelfer Ausbildung">Brandschutzhelfer Ausbildung</a></li>
+                <li><a href="/flucht-und-rettungsplaene" title="Flucht- und Rettungspläne">Flucht- und Rettungspläne</a></li>
+                <li><a href="/brandschutzkonzepte" title="Brandschutzkonzepte">Brandschutzkonzepte</a></li>
+                <li><a href="/feuerwehr-einsatzplaene" title="Feuerwehr-Einsatzpläne">Feuerwehr-Einsatzpläne</a></li>
+                <li><a href="/brandschutzbegehungen" title="Brandschutzbegehungen">Brandschutzbegehungen</a></li>
+                <li><a href="/brandschutzberatung" title="Brandschutzberatung">Brandschutzberatung</a></li>
+                <li><a href="/tueren-brandschutz" title="Türen Brandschutz">Türen Brandschutz</a></li>
+                <li><a href="/schulungen" title="Brandschutz Schulungen">Schulungen</a></li>
               </ul>
             </nav>
           </div>
