@@ -15,7 +15,8 @@ const Footer = () => {
           </div>
           <div>
             <p className="text-white/80 text-center md:text-right">
-              Ihr zuverlässiger Partner für Ihren Brandschutz seit über 30 Jahren.
+              Ihr zuverlässiger Partner für Brandschutz- und Fluchtwegslösungen
+              seit über 25 Jahren.
             </p>
             <p className="text-white/60 text-center md:text-right mt-2">
               &copy; {currentYear} Arnold Brandschutz. Alle Rechte vorbehalten.

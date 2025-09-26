@@ -17,10 +17,12 @@ const Hero = () => {
             Professioneller Brandschutz für Ihre Sicherheit
           </h1>
           <h2 className="text-2xl lg:text-3xl font-semibold text-secondary/90 mb-4 animate-fadeIn">
-            Seit über 30 Jahren Ihr verlässlicher Partner für Brandschutz. Wir garantieren höchste Qualität und Sicherheit für Ihr Gebäude durch TÜV-zertifizierte Sachverständige.
+            Brandschutzplanung, Türenplanung und Qualitätssicherung von zertifizierten Experten
           </h2>
           <p className="text-lg lg:text-xl text-secondary/80 mb-8 animate-fadeIn">
-            Seit über 30 Jahren Ihr verlässlicher Partner für Brandschutz. Wir garantieren höchste Qualität und Sicherheit für Ihr Gebäude durch TÜV-zertifizierte Sachverständige.
+            Seit über 30 Jahre Ihr verlässlicher Partner für Brandschutz- und
+            Fluchtwegslösungen. Wir garantieren höchste Qualität und Sicherheit
+            für Ihr Gebäude durch TÜV-zertifizierte Sachverständige.
           </p>
           <button
             onClick={scrollToContact}
