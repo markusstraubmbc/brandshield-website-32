@@ -16,12 +16,10 @@ const Hero = () => {
           <h1 className="text-4xl lg:text-5xl font-bold text-secondary mb-6 animate-fadeIn">
             Professioneller Brandschutz für Ihre Sicherheit
           </h1>
-          <h2 className="text-2xl lg:text-3xl font-semibold text-secondary/90 mb-4 animate-fadeIn">
-            Seit über 30 Jahren Ihr verlässlicher Partner für Brandschutz. Wir garantieren höchste Qualität und Sicherheit für Ihr Gebäude durch TÜV-zertifizierte Sachverständige.
-          </h2>
           <p className="text-lg lg:text-xl text-secondary/80 mb-8 animate-fadeIn">
-            Seit über 30 Jahren Ihr verlässlicher Partner für Brandschutz. Wir garantieren höchste Qualität und Sicherheit
-            für Ihr Gebäude durch TÜV-zertifizierte Sachverständige.
+            <span className="underline">Als</span> <strong>Spezialisten für Brandschutz</strong> machen wir Ihre Immobilie funktionsfähig und brandschutzsicher. 
+            Dadurch schützen Sie Leben, sind rechtskonform und sparen wertvolle Zeit und Kosten. 
+            Durch unsere diverse Kooperationspartner bekommen Sie den Brandschutz aus einer Hand.
           </p>
           <button
             onClick={scrollToContact}
