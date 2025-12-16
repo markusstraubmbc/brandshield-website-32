@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div>
             <img
-              src="/lovable-uploads/51f6a88b-0936-4380-a9af-5b9bd7144996.png"
+              src="/lovable-uploads/89e68df5-d32c-408f-a278-72aff11ee3e1.png"
               alt="Arnold Brandschutz Logo"
               className="h-12 mb-4 md:mb-0"
             />
