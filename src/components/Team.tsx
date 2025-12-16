@@ -61,6 +61,15 @@ const Team = () => {
             </div>
           ))}
         </div>
+        
+        {/* Kooperationspartner Box */}
+        <div className="mt-12 max-w-3xl mx-auto">
+          <div className="bg-muted rounded-lg p-8 shadow-md text-center">
+            <p className="text-lg text-secondary font-medium">
+              Durch unsere Kooperationspartner bieten wir Ihnen das „Rund-um-Sorglos-Paket" für Ihren Brandschutz aus einer Hand.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
