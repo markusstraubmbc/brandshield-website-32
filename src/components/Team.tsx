@@ -40,8 +40,11 @@ const Team = () => {
               <div className="aspect-square w-48 mx-auto mb-6 overflow-hidden rounded-full">
                 <img
                   src={member.image}
-                  alt={member.name}
+                  alt={member.name === "Jürgen Arnold"
+                    ? "Jürgen Arnold – TÜV-zertifizierter Sachverständiger für Brandschutz, EIPOS Fachplaner, Stuttgart"
+                    : "Tatjana Arnold – Administration und Büroleitung Brandschutz Arnold"}
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="text-center">

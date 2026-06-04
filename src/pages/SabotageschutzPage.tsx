@@ -1,9 +1,17 @@
 
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ServiceSidebar from "@/components/ServiceSidebar";
 import { Lock, Shield, Eye, AlertTriangle, CheckCircle, Phone } from "lucide-react";
 
 const SabotageschutzPage = () => {
+  useEffect(() => {
+    document.title = "Sabotageschutz Infrastruktur & Außenbereich | Arnold Brandschutz Stuttgart";
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", "Professioneller Sabotageschutz für Infrastruktur und Außenbereich – Schutz von Stromleitungen, Versorgungseinrichtungen. TÜV-zertifiziert, Brandschutz Arnold Stuttgart.");
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -32,10 +40,11 @@ const SabotageschutzPage = () => {
           </div>
         </section>
 
-        {/* Main Content */}
+        {/* Main Content + Sidebar */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
+            <div className="flex flex-col lg:flex-row gap-10 max-w-7xl mx-auto">
+            <div className="flex-1 min-w-0">
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-secondary/80">
                   Der Sabotageschutz der Infrastruktur ist ein zunehmend wichtiger Aspekt moderner Gebäude- und Anlagensicherheit.
@@ -135,6 +144,8 @@ const SabotageschutzPage = () => {
                   +49 (0) 711 – 45145212
                 </a>
               </div>
+            </div>
+            <ServiceSidebar />
             </div>
           </div>
         </section>

@@ -1,9 +1,17 @@
 
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ServiceSidebar from "@/components/ServiceSidebar";
 import { Wrench, Building, Shield, FileCheck, CheckCircle, Phone, Award } from "lucide-react";
 
 const GesamtsanierungPage = () => {
+  useEffect(() => {
+    document.title = "Gesamtsanierung Brandschutz mit Sachverständigenbegleitung | Arnold Stuttgart";
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", "Brandschutz-Gesamtsanierung: Wände, Brandabschottungen, Brandschutztüren aus einer Hand inkl. Sachverständigenbegleitung. TÜV-zertifiziert, Arnold Brandschutz Stuttgart.");
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -32,10 +40,11 @@ const GesamtsanierungPage = () => {
           </div>
         </section>
 
-        {/* Main Content */}
+        {/* Main Content + Sidebar */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
+            <div className="flex flex-col lg:flex-row gap-10 max-w-7xl mx-auto">
+            <div className="flex-1 min-w-0">
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-lg text-secondary/80">
                   Eine Brandschutz-Gesamtsanierung erfordert präzise Koordination aller Gewerke und tiefgreifendes Fachwissen.
@@ -137,6 +146,8 @@ const GesamtsanierungPage = () => {
                   +49 (0) 711 – 45145212
                 </a>
               </div>
+            </div>
+            <ServiceSidebar />
             </div>
           </div>
         </section>

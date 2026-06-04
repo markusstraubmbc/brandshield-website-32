@@ -19,13 +19,13 @@ const Contact = () => {
                   <div className="flex-shrink-0 mt-1">
                     <MapPin size={20} />
                   </div>
-                  <div>
+                  <address className="not-italic">
                     <p className="font-bold">Brandschutz Arnold</p>
-                    <p>Inhaber des Unternehmens: Jürgen Arnold</p>
+                    <p>Inhaber: Jürgen Arnold</p>
                     <p>Brühlstraße 67</p>
                     <p>70771 Leinfelden-Echterdingen</p>
                     <p>Deutschland</p>
-                  </div>
+                  </address>
                 </div>
                 <a
                   href="tel:+4971145145212"
