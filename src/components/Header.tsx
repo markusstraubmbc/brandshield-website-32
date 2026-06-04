@@ -1,20 +1,36 @@
 
 import { useState } from "react";
-import { Menu, X, Phone, Mail } from "lucide-react";
+import { Menu, X, Phone, Mail, ChevronDown } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
+
+const serviceLinks = [
+  { href: "/dienstleistungen/sabotageschutz", label: "Sabotageschutz Infrastruktur" },
+  { href: "/dienstleistungen/gesamtsanierung-brandschutz", label: "Gesamtsanierung Brandschutz" },
+  { href: "/dienstleistungen/sicherheitstechnik-tueren", label: "Sicherheitstechnik Türen" },
+  { href: "/dienstleistungen/tuerengutachten", label: "Türengutachten" },
+  { href: "/dienstleistungen/brandschutzplanung", label: "Brandschutzplanung" },
+  { href: "/dienstleistungen/tuerenplanung", label: "Türenplanung" },
+  { href: "/dienstleistungen/brandschutzkonzepte", label: "Brandschutzkonzepte" },
+  { href: "/dienstleistungen/brandschutzbegehungen", label: "Brandschutzbegehungen" },
+];
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const navigationItems = [
-    { id: "services", label: "Dienstleistungen" },
-    { id: "team", label: "Team" },
-    { id: "contact", label: "Kontakt" }
-  ];
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
+  const navigate = useNavigate();
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
+      setIsMenuOpen(false);
+    } else {
+      navigate("/");
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }, 100);
       setIsMenuOpen(false);
     }
   };
@@ -24,11 +40,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <img
-              src="/lovable-uploads/89e68df5-d32c-408f-a278-72aff11ee3e1.png"
-              alt="Arnold Brandschutz Logo - Experte für Brandschutz und Fluchtwegplanung in Stuttgart und Umgebung"
-              className="h-14 lg:h-16" // h-14 for mobile (increased from h-12), h-16 for desktop
-            />
+            <Link to="/" aria-label="Arnold Brandschutz Startseite">
+              <img
+                src="/lovable-uploads/89e68df5-d32c-408f-a278-72aff11ee3e1.png"
+                alt="Arnold Brandschutz Logo - Experte für Brandschutz und Fluchtwegplanung in Stuttgart und Umgebung"
+                className="h-14 lg:h-16"
+              />
+            </Link>
             <div className="ml-4 hidden md:block">
               <p className="text-primary font-medium italic text-lg">
                 „Brandschutz Arnold –<br />Brandschutz sicher"
@@ -57,18 +75,50 @@ const Header = () => {
           </div>
 
           {/* Navigation - Desktop */}
-          <nav className="hidden lg:flex items-center gap-8" aria-label="Hauptnavigation">
-            {navigationItems.map((item) => (
+          <nav className="hidden lg:flex items-center gap-6" aria-label="Hauptnavigation">
+            {/* Dienstleistungen Dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setIsServicesOpen(true)}
+              onMouseLeave={() => setIsServicesOpen(false)}
+            >
               <button
-                key={item.id}
-                onClick={() => scrollToSection(item.id)}
-                className={`text-secondary hover:text-primary capitalize transition-colors ${
-                  item.id === 'services' ? 'font-semibold px-4' : ''
-                }`}
+                onClick={() => scrollToSection("services")}
+                className="flex items-center gap-1 text-secondary hover:text-primary font-semibold transition-colors"
+                aria-expanded={isServicesOpen}
+                aria-haspopup="true"
               >
-                {item.label}
+                Dienstleistungen
+                <ChevronDown size={16} className={`transition-transform ${isServicesOpen ? "rotate-180" : ""}`} />
               </button>
-            ))}
+              {isServicesOpen && (
+                <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-lg shadow-lg border py-2 z-50">
+                  {serviceLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      to={link.href}
+                      className="block px-4 py-2 text-secondary hover:text-primary hover:bg-muted transition-colors text-sm"
+                      onClick={() => setIsServicesOpen(false)}
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <button
+              onClick={() => scrollToSection("team")}
+              className="text-secondary hover:text-primary transition-colors"
+            >
+              Team
+            </button>
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="text-secondary hover:text-primary transition-colors"
+            >
+              Kontakt
+            </button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -85,18 +135,44 @@ const Header = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="lg:hidden py-4 border-t" role="navigation" aria-label="Mobile Navigation">
-            <nav className="flex flex-col gap-4">
-              {navigationItems.map((item) => (
-                <button
-                  key={item.id}
-                  onClick={() => scrollToSection(item.id)}
-                  className="text-secondary hover:text-primary capitalize transition-colors"
-                >
-                  {item.label}
-                </button>
-              ))}
+            <nav className="flex flex-col gap-2">
+              {/* Mobile Dienstleistungen Accordion */}
+              <button
+                onClick={() => setIsMobileServicesOpen(!isMobileServicesOpen)}
+                className="flex items-center justify-between text-secondary hover:text-primary font-semibold transition-colors py-2"
+                aria-expanded={isMobileServicesOpen}
+              >
+                Dienstleistungen
+                <ChevronDown size={16} className={`transition-transform ${isMobileServicesOpen ? "rotate-180" : ""}`} />
+              </button>
+              {isMobileServicesOpen && (
+                <div className="pl-4 flex flex-col gap-1 mb-2">
+                  {serviceLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      to={link.href}
+                      className="text-secondary/80 hover:text-primary transition-colors py-1 text-sm"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+              <button
+                onClick={() => scrollToSection("team")}
+                className="text-secondary hover:text-primary transition-colors py-2 text-left"
+              >
+                Team
+              </button>
+              <button
+                onClick={() => scrollToSection("contact")}
+                className="text-secondary hover:text-primary transition-colors py-2 text-left"
+              >
+                Kontakt
+              </button>
             </nav>
-            <div className="flex flex-col gap-4 mt-4 text-secondary">
+            <div className="flex flex-col gap-4 mt-4 text-secondary border-t pt-4">
               <a
                 href="tel:+4971145145212"
                 className="flex items-center gap-2 hover:text-primary transition-colors"

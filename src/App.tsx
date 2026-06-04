@@ -17,6 +17,10 @@ import BrandschutzhelferAusbildungPage from "./pages/BrandschutzhelferAusbildung
 import FluchtRettungsplaenePage from "./pages/FluchtRettungsplaenePage";
 import FeuerwehrEinsatzplaenePage from "./pages/FeuerwehrEinsatzplaenePage";
 import BrandschutzStuttgartPage from "./pages/BrandschutzStuttgartPage";
+import SabotageschutzPage from "./pages/SabotageschutzPage";
+import GesamtsanierungPage from "./pages/GesamtsanierungPage";
+import TuerengutachtenPage from "./pages/TuerengutachtenPage";
+import SicherheitstechnikTuerenPage from "./pages/SicherheitstechnikTuerenPage";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +43,10 @@ const App = () => (
           <Route path="/dienstleistungen/flucht-und-rettungsplaene" element={<FluchtRettungsplaenePage />} />
           <Route path="/dienstleistungen/feuerwehr-einsatzplaene" element={<FeuerwehrEinsatzplaenePage />} />
           <Route path="/brandschutz-stuttgart" element={<BrandschutzStuttgartPage />} />
+          <Route path="/dienstleistungen/sabotageschutz" element={<SabotageschutzPage />} />
+          <Route path="/dienstleistungen/gesamtsanierung-brandschutz" element={<GesamtsanierungPage />} />
+          <Route path="/dienstleistungen/tuerengutachten" element={<TuerengutachtenPage />} />
+          <Route path="/dienstleistungen/sicherheitstechnik-tueren" element={<SicherheitstechnikTuerenPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

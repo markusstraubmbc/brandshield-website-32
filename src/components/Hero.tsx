@@ -59,7 +59,13 @@ const Hero = () => {
             <h3>Brandabschottungen fachgerecht planen und ausführen Stuttgart</h3>
             <h3>Fachbauleitung Brandschutz und Schnittstellenkoordination</h3>
             <h3>Brandschutzbegehungen professionell durchführen Stuttgart</h3>
-            <h3>Sabotageschutz für Infrastruktur und Stromleitungen Außenbereich</h3>
+            <h3>Sabotageschutz Infrastruktur Stuttgart und Außenbereich Brandschutz Arnold</h3>
+            <h3>Sabotageschutz Außenbereich Stromleitungen Versorgungseinrichtungen Schutz</h3>
+            <h3>Gesamtsanierung Brandschutz mit Sachverständigenbegleitung Stuttgart</h3>
+            <h3>Brandschutz Komplettsanierung Wände Brandabschottungen Brandschutztüren</h3>
+            <h3>Planung Sicherheitstechnik Türen jeglicher Art Fluchttürterminal Zugangssystem</h3>
+            <h3>Türengutachten Stuttgart Türen Gutachten erstellen Brandschutz Arnold</h3>
+            <h3>Türgutachter Stuttgart Begutachtung Türen Bestandsaufnahme Sachverständiger</h3>
             <h3>Rauchsimulation und Rauchtests für Wände und Abschottungen</h3>
             
             {/* Geografische SEO-Erweiterungen */}
@@ -80,6 +86,10 @@ const Hero = () => {
               <p>Entdecken Sie unsere Brandschutz-Services in Stuttgart und Baden-Württemberg:</p>
               <ul>
                 <li><a href="/brandschutzplanung" title="Brandschutzplanung Stuttgart">Brandschutzplanung</a></li>
+                <li><a href="/dienstleistungen/sabotageschutz" title="Sabotageschutz Infrastruktur Außenbereich">Sabotageschutz Infrastruktur</a></li>
+                <li><a href="/dienstleistungen/gesamtsanierung-brandschutz" title="Gesamtsanierung Brandschutz Sachverständigenbegleitung">Gesamtsanierung Brandschutz</a></li>
+                <li><a href="/dienstleistungen/sicherheitstechnik-tueren" title="Sicherheitstechnik Türen Planung">Sicherheitstechnik Türen</a></li>
+                <li><a href="/dienstleistungen/tuerengutachten" title="Türengutachten erstellen Stuttgart">Türengutachten</a></li>
                 <li><a href="/tuerenplanung" title="Türenplanung Brandschutz">Türenplanung</a></li>
                 <li><a href="/brandschutzhelfer-ausbildung" title="Brandschutzhelfer Ausbildung">Brandschutzhelfer Ausbildung</a></li>
                 <li><a href="/flucht-und-rettungsplaene" title="Flucht- und Rettungspläne">Flucht- und Rettungspläne</a></li>

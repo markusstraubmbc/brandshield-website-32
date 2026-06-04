@@ -233,6 +233,10 @@ const SeoContent = () => {
         <nav className="sr-only">
           <ul>
             <li><a href="https://brandschutz-arnold.de/brandschutz-stuttgart">Brandschutz Stuttgart</a></li>
+            <li><a href="https://brandschutz-arnold.de/dienstleistungen/sabotageschutz">Sabotageschutz Infrastruktur</a></li>
+            <li><a href="https://brandschutz-arnold.de/dienstleistungen/gesamtsanierung-brandschutz">Gesamtsanierung Brandschutz</a></li>
+            <li><a href="https://brandschutz-arnold.de/dienstleistungen/tuerengutachten">Türengutachten erstellen</a></li>
+            <li><a href="https://brandschutz-arnold.de/dienstleistungen/sicherheitstechnik-tueren">Sicherheitstechnik Türen</a></li>
             <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzplanung">Brandschutzplanung</a></li>
             <li><a href="https://brandschutz-arnold.de/dienstleistungen/tuerenplanung">Türenplanung Experte</a></li>
             <li><a href="https://brandschutz-arnold.de/dienstleistungen/brandschutzhelfer-ausbildung">Brandschutzhelfer Ausbildung</a></li>
@@ -251,6 +255,57 @@ const SeoContent = () => {
           </ul>
         </nav>
         
+        {/* Neue Kerndienstleistungen Sabotageschutz, Gesamtsanierung, Türengutachten */}
+        <section>
+          <h3>Sabotageschutz der Infrastruktur – Schutz im Außenbereich</h3>
+          <p>
+            Arnold Brandschutz bietet professionellen Sabotageschutz für die Infrastruktur im Innen- und Außenbereich.
+            Der Schutz von Stromleitungen, Versorgungseinrichtungen und sicherheitskritischer Infrastruktur vor vorsätzlicher
+            Beschädigung ist ein wesentlicher Bestandteil moderner Gebäudesicherheit. Unser Sabotageschutz Außenbereich umfasst
+            die Analyse von Schwachstellen, die Planung und Umsetzung geeigneter Schutzmaßnahmen sowie die Dokumentation
+            für Behörden. Infrastrukturschutz Brandschutz Arnold Stuttgart Leinfelden-Echterdingen Baden-Württemberg.
+          </p>
+          <p>
+            Sabotageschutz Infrastruktur | Sabotageschutz Außenbereich | Infrastrukturschutz |
+            Sabotageschutz Stromleitungen | Sabotageschutz Kosten | Sabotageschutz Gebäude Stuttgart
+          </p>
+        </section>
+
+        <section>
+          <h3>Gesamtsanierung Brandschutz mit Sachverständigenbegleitung</h3>
+          <p>
+            Die Brandschutz-Gesamtsanierung von Arnold Brandschutz umfasst alle Maßnahmen aus einer Hand:
+            Sanierung von Brandschutzwänden, fachgerechter Einbau und Instandsetzung von Brandabschottungen,
+            Erneuerung und Wartung von Brandschutztüren inklusive rechtssicherer Sachverständigenbegleitung.
+            Als zertifizierter Brandschutz-Sachverständiger begleitet Jürgen Arnold alle Phasen der
+            Komplettsanierung von der Bestandsaufnahme bis zur behördlichen Abnahme.
+            Brandschutz Komplettsanierung Stuttgart Baden-Württemberg München.
+          </p>
+          <p>
+            Gesamtsanierung Brandschutz | Brandschutz Komplettsanierung | Brandschutz Sachverständigenbegleitung |
+            Brandschutzwände Sanierung | Brandabschottungen erneuern | Brandschutztüren Sachverständiger |
+            GU-Komplettleistung Brandschutz | Brandschutz Generalsanierung Stuttgart
+          </p>
+        </section>
+
+        <section>
+          <h3>Türengutachten & Sicherheitstechnik in Türen</h3>
+          <p>
+            Als TÜV- und EIPOS-zertifizierter Sachverständiger erstellt Jürgen Arnold rechtssichere Türengutachten
+            für alle Türarten: Brandschutztüren, Rauchschutztüren, Sicherheitstüren und Fluchttüren.
+            Das Türengutachten dokumentiert den Ist-Zustand, identifiziert Mängel und ist Grundlage für
+            behördliche Abnahmen sowie Haftungsfragen. Zusätzlich plant Arnold Brandschutz die gesamte
+            Sicherheitstechnik in Türen jeglicher Art – von Fluchttürterminals über Zutrittskontrollsysteme
+            bis hin zu automatisierten Türsystemen. Türengutachten Stuttgart Türgutachter Sicherheitstechnik Türen Planung.
+          </p>
+          <p>
+            Türengutachten | Türen Gutachten erstellen | Türgutachter Stuttgart | Türgutachten Pflicht |
+            Türgutachten Kosten | Sicherheitstechnik Türen | Türplanung Sicherheitstechnik |
+            Sicherheitstür Planung | Fluchttürterminal Planung | Zugangssystem Türen |
+            Türautomatisierung Brandschutz | Begutachtung Türen Sachverständiger
+          </p>
+        </section>
+
         {/* Keyword-Cluster basierend auf SEO-Forschung */}
         <div className="sr-only">
           <h4>Brandschutz (Allgemein)</h4>
