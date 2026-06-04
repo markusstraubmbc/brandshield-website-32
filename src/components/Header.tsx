@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Menu, X, Phone, Mail, ChevronDown } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
+import { trackPhoneClick, trackEmailClick } from "@/lib/tracking";
 
 const serviceLinks = [
   { href: "/dienstleistungen/sabotageschutz", label: "Sabotageschutz Infrastruktur" },
@@ -58,6 +59,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center gap-6 text-secondary">
             <a
               href="tel:+4971145145212"
+              onClick={() => trackPhoneClick("header")}
               className="flex items-center gap-2 hover:text-primary transition-colors"
               aria-label="Rufen Sie uns an unter +49 (0) 711 – 45145212"
             >
@@ -66,6 +68,7 @@ const Header = () => {
             </a>
             <a
               href="mailto:j.arnold@brandschutz-arnold.de"
+              onClick={() => trackEmailClick("header")}
               className="flex items-center gap-2 hover:text-primary transition-colors"
               aria-label="Kontaktieren Sie uns per E-Mail"
             >

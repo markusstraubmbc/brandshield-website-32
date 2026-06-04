@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
+import { trackPhoneClick, trackEmailClick } from "@/lib/tracking";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -23,10 +24,10 @@ const Footer = () => {
               TÜV-zertifiziert · EIPOS-Sachverständiger · Stuttgart & bundesweit.
             </p>
             <div className="mt-4 space-y-2 text-sm">
-              <a href="tel:+4971145145212" className="flex items-center gap-2 text-white/80 hover:text-white transition-colors">
+              <a href="tel:+4971145145212" onClick={() => trackPhoneClick("footer")} className="flex items-center gap-2 text-white/80 hover:text-white transition-colors">
                 <Phone size={14} /> +49 (0) 711 – 45145212
               </a>
-              <a href="mailto:j.arnold@brandschutz-arnold.de" className="flex items-center gap-2 text-white/80 hover:text-white transition-colors">
+              <a href="mailto:j.arnold@brandschutz-arnold.de" onClick={() => trackEmailClick("footer")} className="flex items-center gap-2 text-white/80 hover:text-white transition-colors">
                 <Mail size={14} /> j.arnold@brandschutz-arnold.de
               </a>
               <div className="flex items-start gap-2 text-white/70 text-sm">

@@ -1,5 +1,6 @@
 
 import { Mail, Phone, MapPin } from "lucide-react";
+import { trackPhoneClick, trackEmailClick } from "@/lib/tracking";
 
 const Contact = () => {
   return (
@@ -29,6 +30,7 @@ const Contact = () => {
                 </div>
                 <a
                   href="tel:+4971145145212"
+                  onClick={() => trackPhoneClick("contact_section")}
                   className="flex items-center gap-3 text-secondary hover:text-primary transition-colors"
                 >
                   <Phone size={20} />
@@ -36,6 +38,7 @@ const Contact = () => {
                 </a>
                 <a
                   href="tel:+491735390653"
+                  onClick={() => trackPhoneClick("contact_section_mobile")}
                   className="flex items-center gap-3 text-secondary hover:text-primary transition-colors"
                 >
                   <Phone size={20} />
@@ -43,6 +46,7 @@ const Contact = () => {
                 </a>
                 <a
                   href="mailto:j.arnold@brandschutz-arnold.de"
+                  onClick={() => trackEmailClick("contact_section")}
                   className="flex items-center gap-3 text-secondary hover:text-primary transition-colors"
                 >
                   <Mail size={20} />
@@ -62,6 +66,7 @@ const Contact = () => {
               src="/assets/visitenkarte.png"
               alt="Visitenkarte Jürgen Arnold"
               className="max-w-full h-auto shadow-lg rounded-lg"
+              loading="lazy"
             />
           </div>
         </div>

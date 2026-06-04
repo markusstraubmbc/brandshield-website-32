@@ -1,6 +1,7 @@
 
 import { Link, useLocation } from "react-router-dom";
 import { Phone, Mail, ChevronRight } from "lucide-react";
+import { trackPhoneClick, trackEmailClick } from "@/lib/tracking";
 
 const allServices = [
   { href: "/dienstleistungen/sabotageschutz", label: "Sabotageschutz Infrastruktur" },
@@ -56,6 +57,7 @@ const ServiceSidebar = () => {
         </p>
         <a
           href="tel:+4971145145212"
+          onClick={() => trackPhoneClick("sidebar")}
           className="flex items-center gap-2 text-white hover:text-white/80 transition-colors text-sm font-medium mb-2"
         >
           <Phone size={16} />
@@ -63,6 +65,7 @@ const ServiceSidebar = () => {
         </a>
         <a
           href="mailto:j.arnold@brandschutz-arnold.de"
+          onClick={() => trackEmailClick("sidebar")}
           className="flex items-center gap-2 text-white hover:text-white/80 transition-colors text-sm"
         >
           <Mail size={16} />

@@ -1,4 +1,5 @@
 
+import { trackPhoneClick } from "@/lib/tracking";
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -31,7 +32,7 @@ const SicherheitstechnikTuerenPage = () => {
               </p>
               <a
                 href="tel:+4971145145212"
-                className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-md hover:bg-primary/90 transition-colors"
+                className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-md hover:bg-primary/90 transition-colors" onClick={() => trackPhoneClick(window.location.pathname)}
               >
                 <Phone size={20} />
                 Jetzt beraten lassen
@@ -139,7 +140,7 @@ const SicherheitstechnikTuerenPage = () => {
                 </p>
                 <a
                   href="tel:+4971145145212"
-                  className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-md hover:bg-primary/90 transition-colors"
+                  className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-md hover:bg-primary/90 transition-colors" onClick={() => trackPhoneClick(window.location.pathname)}
                 >
                   <Phone size={20} />
                   +49 (0) 711 – 45145212
