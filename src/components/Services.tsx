@@ -58,16 +58,15 @@ const Services = () => {
   ];
 
   const references = [
-    "Flughafen Stuttgart GmbH",
-    "Q2 Tower München", 
-    "UKT Tübingen",
-    "Agentur für Arbeit Stuttgart",
-    "STRABAG",
-    "S21-ARGE Flughafentunnel",
-    "JVAs",
-    "Krankenhäuser", 
-    "Weiler & Eberhardt Depotverwaltung AG",
-    "u.v.m."
+    { name: "Flughafen Stuttgart GmbH", sector: "Luftfahrt" },
+    { name: "Q2 Tower München", sector: "Hochbau" },
+    { name: "UKT Tübingen", sector: "Gesundheit" },
+    { name: "Agentur für Arbeit Stuttgart", sector: "Öffentliche Hand" },
+    { name: "STRABAG", sector: "Bauindustrie" },
+    { name: "S21-ARGE Flughafentunnel", sector: "Infrastruktur" },
+    { name: "Justizvollzugsanstalten (JVAs)", sector: "Öffentliche Hand" },
+    { name: "Krankenhäuser & Kliniken", sector: "Gesundheit" },
+    { name: "Weiler & Eberhardt Depotverwaltung AG", sector: "Industrie" },
   ];
 
   return (
@@ -116,16 +115,20 @@ const Services = () => {
                 Referenzen
               </h3>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
               {references.map((reference, index) => (
                 <div
                   key={index}
-                  className="text-secondary/80 py-2 px-4 bg-muted/50 rounded-md text-center"
+                  className="border-l-4 border-primary bg-muted/40 rounded-r-md py-3 px-4"
                 >
-                  {reference}
+                  <p className="font-semibold text-secondary text-sm leading-snug">{reference.name}</p>
+                  <p className="text-xs text-primary/70 mt-0.5">{reference.sector}</p>
                 </div>
               ))}
             </div>
+            <p className="text-sm text-secondary/60 mt-5 italic">
+              … sowie zahlreiche weitere Unternehmen und öffentliche Einrichtungen.
+            </p>
           </div>
         </div>
         
