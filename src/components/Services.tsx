@@ -75,31 +75,40 @@ const Services = () => {
         <h2 className="text-3xl lg:text-4xl font-bold text-center text-secondary mb-12">
           Unsere Dienstleistungen im Brandschutz
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {services.map((service) => (
             <div
               key={service.title}
-              className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow flex flex-col"
+              className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow flex flex-col overflow-hidden border-t-4 border-primary"
             >
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <service.icon className="w-6 h-6 text-primary" />
+              <div className="p-6 flex flex-col flex-1">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
+                    <service.icon className="w-5 h-5 text-primary" />
+                  </div>
+                  <h3 className="text-lg font-bold text-secondary leading-tight">
+                    {service.title}
+                  </h3>
+                </div>
+                <ul className="space-y-2 flex-1">
+                  {service.description.split('\n').filter(Boolean).map((line, i) => {
+                    const text = line.replace(/^•\s*/, '');
+                    return (
+                      <li key={i} className="flex items-start gap-2 text-sm text-secondary/80">
+                        <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 shrink-0" />
+                        <span dangerouslySetInnerHTML={{ __html: text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }} />
+                      </li>
+                    );
+                  })}
+                </ul>
+                <Link
+                  to={service.href}
+                  className="mt-5 inline-flex items-center gap-1.5 text-primary font-semibold text-sm hover:gap-2.5 transition-all"
+                  aria-label={`Mehr erfahren über ${service.title}`}
+                >
+                  Mehr erfahren <ArrowRight size={14} />
+                </Link>
               </div>
-              <h3 className="text-xl font-bold text-secondary mb-3">
-                {service.title}
-              </h3>
-              <div
-                className="text-secondary/80 whitespace-pre-line flex-1"
-                dangerouslySetInnerHTML={{
-                  __html: service.description.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                }}
-              />
-              <Link
-                to={service.href}
-                className="mt-4 inline-flex items-center gap-1 text-primary font-medium text-sm hover:gap-2 transition-all"
-                aria-label={`Mehr erfahren über ${service.title}`}
-              >
-                Mehr erfahren <ArrowRight size={14} />
-              </Link>
             </div>
           ))}
         </div>
