@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Shield background -->
+  <path d="M32 4 L56 14 L56 36 C56 50 44 60 32 62 C20 60 8 50 8 36 L8 14 Z" fill="#1a2744"/>
+  <!-- Shield border highlight -->
+  <path d="M32 8 L52 17 L52 36 C52 48 41 57 32 59 C23 57 12 48 12 36 L12 17 Z" fill="none" stroke="#2a3d6b" stroke-width="1"/>
+  <!-- Flame - outer (red) -->
+  <path d="M32 48 C24 44 20 38 22 30 C23 26 26 24 26 24 C25 28 27 30 29 28 C28 24 30 18 34 14 C34 18 36 20 38 18 C40 24 42 28 40 34 C38 40 36 44 32 48 Z" fill="#e53e3e"/>
+  <!-- Flame - inner (orange) -->
+  <path d="M32 44 C27 40 25 35 27 29 C28 26 30 25 30 25 C29.5 28 31 30 32 28 C32 24 33 20 35 17 C35 21 37 23 38 21 C39 26 40 30 38 35 C37 39 35 42 32 44 Z" fill="#f6ad55"/>
+  <!-- Flame - tip (yellow) -->
+  <path d="M32 40 C29 37 28 33 30 29 C30.5 27 32 26 32 26 C32 29 33 31 34 29 C34 26 34.5 23 35.5 21 C36 24 37 26 37 29 C37 33 35 37 32 40 Z" fill="#fefcbf"/>
+</svg>

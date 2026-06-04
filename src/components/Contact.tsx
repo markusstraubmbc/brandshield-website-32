@@ -59,7 +59,7 @@ const Contact = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src="/lovable-uploads/09df1356-c06e-45ee-8399-50b4dd4667b0.png"
+              src="/assets/visitenkarte.png"
               alt="Visitenkarte Jürgen Arnold"
               className="max-w-full h-auto shadow-lg rounded-lg"
             />

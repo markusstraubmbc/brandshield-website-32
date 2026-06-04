@@ -3,7 +3,7 @@ const Team = () => {
     {
       name: "Jürgen Arnold",
       title: "Experte für Brandschutz und zertifizierter Spezialist",
-      image: "/lovable-uploads/f570c998-36eb-4c03-b873-58bec8ef243a.png",
+      image: "/assets/team-juergen-arnold.png",
       description:
         "30 Jahren Erfahrung in der Brandschutzberatung Planung und Umsetzung.",
       qualifications: [
@@ -19,7 +19,7 @@ const Team = () => {
     {
       name: "Tatjana Arnold",
       title: "Administration und Büroleitung",
-      image: "/lovable-uploads/101e1314-6274-415b-b2ce-23488969b23c.png",
+      image: "/assets/team-tatjana-arnold.png",
       description:
         "Diplom-Betriebswirtin (FH) mit umfassender Expertise in Verwaltung und Projektkoordination. Verantwortlich für reibungslose Büroabläufe und Kundenbetreuung.",
     },

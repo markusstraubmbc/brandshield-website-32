@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <Link to="/" aria-label="Arnold Brandschutz Startseite">
               <img
-                src="/lovable-uploads/89e68df5-d32c-408f-a278-72aff11ee3e1.png"
+                src="/assets/logo.png"
                 alt="Arnold Brandschutz Logo – Experte für Brandschutz Stuttgart"
                 className="h-12 mb-4"
               />
