@@ -58,38 +58,38 @@ const GesamtsanierungPage = () => {
               {/* Leistungsumfang */}
               <h2 className="text-2xl font-bold text-secondary mb-8">Leistungsumfang Gesamtsanierung</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Building className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Building className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Brandschutzwände</h3>
                   <p className="text-secondary/80">Sanierung, Herstellung und Instandsetzung von Brandschutzwänden nach aktuellen Normen und Bauvorschriften</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Shield className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Shield className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Brandabschottungen</h3>
                   <p className="text-secondary/80">Aufnahme, Begutachtung und fachgerechte Herstellung aller Brandabschottungen inkl. Fibersilikatplatten und Brandschutzkissen</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Wrench className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Wrench className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Brandschutztüren</h3>
                   <p className="text-secondary/80">Einbau, Erneuerung und Wartung von Rauch-, Brand-, Flucht- und Sicherheitstüren gemäß DIN-Normen</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <FileCheck className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><FileCheck className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Sachverständigenbegleitung</h3>
                   <p className="text-secondary/80">Begleitung durch zertifizierten Brandschutz-Sachverständigen (TÜV Süd, EIPOS) von der Planung bis zur Behördenabnahme</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <CheckCircle className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><CheckCircle className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Schnittstellenkoordination</h3>
                   <p className="text-secondary/80">Professionelle Steuerung aller Gewerke: Türtechnik, Wände, Brandabschottungen und Brandschutzklappen aus einer Hand</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Award className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Award className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Qualitätssicherung</h3>
                   <p className="text-secondary/80">Rechtskonforme Dokumentation und Qualitätssicherung als Nachweis für gesetzliche Betreiberpflichten</p>
                 </div>

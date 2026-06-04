@@ -39,38 +39,38 @@ const FluchtRettungsplaenePage = () => {
 
               {/* Services Grid */}
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Map className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Map className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Fluchtpläne</h3>
                   <p className="text-secondary/80">Übersichtliche Darstellung aller Fluchtwege und Notausgänge</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Users className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Users className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Rettungspläne</h3>
                   <p className="text-secondary/80">Spezielle Pläne für Rettungskräfte und Einsatzleitung</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Shield className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Shield className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">DIN ISO 23601</h3>
                   <p className="text-secondary/80">Normkonforme Erstellung nach aktuellen Standards</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <FileCheck className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><FileCheck className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Digitale Pläne</h3>
                   <p className="text-secondary/80">Moderne digitale Lösungen und QR-Code Integration</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Eye className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Eye className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Sichtbarkeitsanalyse</h3>
                   <p className="text-secondary/80">Optimale Platzierung für maximale Sichtbarkeit</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Building className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Building className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Gebäudespezifisch</h3>
                   <p className="text-secondary/80">Maßgeschneiderte Pläne für jede Gebäudeart</p>
                 </div>

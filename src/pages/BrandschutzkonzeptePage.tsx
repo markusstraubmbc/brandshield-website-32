@@ -40,38 +40,38 @@ const BrandschutzkonzeptePage = () => {
 
               {/* Services Grid */}
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <FileText className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><FileText className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Brandschutzkonzepte</h3>
                   <p className="text-secondary/80">Umfassende Konzepte für baulichen, anlagentechnischen und organisatorischen Brandschutz</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Map className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Map className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Feuerwehrpläne</h3>
                   <p className="text-secondary/80">Präzise Laufkarten und Einsatzpläne für die Feuerwehr</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Users className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Users className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Flucht- und Rettungspläne</h3>
                   <p className="text-secondary/80">Übersichtliche Pläne für sichere Evakuierung im Notfall</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Building className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Building className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Baulicher Brandschutz</h3>
                   <p className="text-secondary/80">Konzepte für brandschutztechnische Gebäudeausstattung</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Shield className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Shield className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Anlagentechnischer Brandschutz</h3>
                   <p className="text-secondary/80">Planung von Brandmelde- und Löschanlagen</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <CheckCircle className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><CheckCircle className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Brandschutzordnung</h3>
                   <p className="text-secondary/80">Erstellung von Brandschutzordnungen nach DIN 14096</p>
                 </div>

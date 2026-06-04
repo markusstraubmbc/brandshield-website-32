@@ -39,38 +39,38 @@ const BrandschutzplanungPage = () => {
 
               {/* Services Grid */}
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <FileText className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><FileText className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Brandschutzkonzept</h3>
                   <p className="text-secondary/80">Umfassende Konzepte nach Musterbauordnung und LBO</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Building className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Building className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Baulicher Brandschutz</h3>
                   <p className="text-secondary/80">Planung von Brandwänden, Brandabschnitten und Fluchtwegen</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Users className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Users className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Anlagentechnischer Brandschutz</h3>
                   <p className="text-secondary/80">Brandmelde-, Lösch- und Entrauchungsanlagen</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Shield className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Shield className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-Bold text-secondary mb-3">Organisatorischer Brandschutz</h3>
                   <p className="text-secondary/80">Brandschutzordnung und Evakuierungskonzepte</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <CheckCircle className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><CheckCircle className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Genehmigungsplanung</h3>
                   <p className="text-secondary/80">Brandschutznachweise für Baugenehmigungsverfahren</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Award className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Award className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Sonderbauten</h3>
                   <p className="text-secondary/80">Spezialplanung für komplexe Gebäudetypen</p>
                 </div>

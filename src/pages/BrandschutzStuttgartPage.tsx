@@ -39,38 +39,38 @@ const BrandschutzStuttgartPage = () => {
 
               {/* Regional Services */}
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <MapPin className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><MapPin className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Lokale Expertise</h3>
                   <p className="text-secondary/80">Kenntnis der regionalen Vorschriften und Behörden</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Building className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Building className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Stuttgart-Projekte</h3>
                   <p className="text-secondary/80">Erfahrung mit Flughafen Stuttgart und weiteren Großprojekten</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Shield className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Shield className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Schnelle Reaktion</h3>
                   <p className="text-secondary/80">Kurze Anfahrtswege für schnelle Unterstützung</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Users className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Users className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Persönlicher Service</h3>
                   <p className="text-secondary/80">Direkter Ansprechpartner vor Ort</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Award className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Award className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Referenzen Region</h3>
                   <p className="text-secondary/80">Zahlreiche erfolgreiche Projekte in Stuttgart und Umgebung</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <CheckCircle className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><CheckCircle className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Baden-Württemberg</h3>
                   <p className="text-secondary/80">Spezialist für LBO Baden-Württemberg</p>
                 </div>

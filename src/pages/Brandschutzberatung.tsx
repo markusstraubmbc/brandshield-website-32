@@ -39,38 +39,38 @@ const Brandschutzberatung = () => {
 
               {/* Services Grid */}
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Shield className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Shield className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Gefahrenanalyse</h3>
                   <p className="text-secondary/80">Professionelle Identifikation und Bewertung potenzieller Brandrisiken</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <CheckCircle className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><CheckCircle className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Risikobewertung</h3>
                   <p className="text-secondary/80">Systematische Analyse und Bewertung aller Brandschutzrisiken</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Users className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Users className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Brandschutzexperten</h3>
                   <p className="text-secondary/80">Erfahrene Sachverständige mit aktuellstem Fachwissen</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Award className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Award className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Brandschutzstandards</h3>
                   <p className="text-secondary/80">Compliance mit allen relevanten DIN-Normen und VdS-Richtlinien</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Clock className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Clock className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Aktuelle Bestimmungen</h3>
                   <p className="text-secondary/80">Immer auf dem neuesten Stand der gesetzlichen Vorschriften</p>
                 </div>
                 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <FileText className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><FileText className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Maßgeschneiderte Lösungen</h3>
                   <p className="text-secondary/80">Individuelle Brandschutzstrategien für Ihr Objekt</p>
                 </div>

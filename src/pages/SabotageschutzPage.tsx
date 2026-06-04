@@ -56,38 +56,38 @@ const SabotageschutzPage = () => {
 
               {/* Services Grid */}
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Eye className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Eye className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Schwachstellenanalyse</h3>
                   <p className="text-secondary/80">Systematische Erfassung und Bewertung aller Schwachstellen in der Gebäudeinfrastruktur</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Lock className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Lock className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Sabotageschutz Außenbereich</h3>
                   <p className="text-secondary/80">Schutz von Stromleitungen, Transformatoren und Versorgungseinrichtungen im Außenbereich gegen Sabotage</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Shield className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Shield className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Infrastrukturschutz</h3>
                   <p className="text-secondary/80">Planung und Umsetzung von Schutzmaßnahmen für sicherheitskritische Infrastruktur und Versorgungsanlagen</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <AlertTriangle className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><AlertTriangle className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Risikobeurteilung</h3>
                   <p className="text-secondary/80">Fachkundige Bewertung des Sabotageschutz-Bedarfs für Ihre spezifische Anlage und Nutzungsart</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <CheckCircle className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><CheckCircle className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Schutzkonzept</h3>
                   <p className="text-secondary/80">Erstellung eines maßgeschneiderten Sabotageschutz-Konzepts mit konkreten Maßnahmen und Prioritäten</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Lock className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Lock className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Dokumentation</h3>
                   <p className="text-secondary/80">Rechtssichere Dokumentation aller Sabotageschutz-Maßnahmen für Behörden und Versicherungen</p>
                 </div>

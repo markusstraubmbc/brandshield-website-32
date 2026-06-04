@@ -56,38 +56,38 @@ const TuerengutachtenPage = () => {
               {/* Gutachten-Leistungen */}
               <h2 className="text-2xl font-bold text-secondary mb-8">Unsere Türengutachten-Leistungen</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Search className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Search className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Bestandsaufnahme</h3>
                   <p className="text-secondary/80">Systematische Erfassung und Dokumentation aller Türen im Gebäude – Ist-Zustand, Mängel, Handlungsbedarf</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <DoorClosed className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><DoorClosed className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Begutachtung Türen</h3>
                   <p className="text-secondary/80">Fachkundige Beurteilung von Brandschutztüren, Rauchschutztüren, Sicherheitstüren und Fluchttüren jeglicher Art</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <ClipboardList className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><ClipboardList className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Mängelprotokoll</h3>
                   <p className="text-secondary/80">Detaillierte Dokumentation von Mängeln mit konkreten Handlungsempfehlungen und Priorisierung</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <FileCheck className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><FileCheck className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Behördengutachten</h3>
                   <p className="text-secondary/80">Erstellung rechtssicherer Gutachten zur Vorlage bei Behörden, für Baugenehmigungen und Abnahmen</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Award className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Award className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Zertifizierter Sachverständiger</h3>
                   <p className="text-secondary/80">EIPOS-geprüfter Sachverständiger (Reg.-Nr. 1294-ST-01-2017) und TÜV Süd Fachplaner für vorbeugenden Brandschutz</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <CheckCircle className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><CheckCircle className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Haftungsschutz</h3>
                   <p className="text-secondary/80">Rechtssichere Dokumentation als Nachweis für die Erfüllung gesetzlicher Betreiberpflichten</p>
                 </div>

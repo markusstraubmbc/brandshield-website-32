@@ -57,38 +57,38 @@ const SicherheitstechnikTuerenPage = () => {
               {/* Services Grid */}
               <h2 className="text-2xl font-bold text-secondary mb-8">Unsere Leistungen Sicherheitstechnik Türen</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Zap className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Zap className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Fluchttürterminals</h3>
                   <p className="text-secondary/80">Planung und Einbau von Fluchttürterminals (FTT) für gesicherte Fluchttüren nach aktuellen Normen</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Lock className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Lock className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Zutrittskontrolle</h3>
                   <p className="text-secondary/80">Planung und Integration von Zutrittskontrollsystemen in Türen – kartenbasiert, biometrisch oder PIN</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Settings className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Settings className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Türautomatisierung</h3>
                   <p className="text-secondary/80">Automatisierung von Türen inkl. Brandschutzfunktion: Feststellanlagen, automatische Schließer, Antriebssysteme</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Zap className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Zap className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Verkabelung & Elektroplanung</h3>
                   <p className="text-secondary/80">Komplette Verkabelungsplanung für alle technischen Türkomponenten – koordiniert mit anderen Gewerken</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <DoorClosed className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><DoorClosed className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Integration Brandmeldeanlage</h3>
                   <p className="text-secondary/80">Anbindung von Türsystemen an die Brandmeldeanlage für automatische Öffnung/Schließung im Brandfall</p>
                 </div>
 
-                <div className="bg-white rounded-lg p-6 shadow-md border">
-                  <Shield className="w-8 h-8 text-primary mb-4" />
+                <div className="bg-white rounded-xl p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-shadow">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4"><Shield className="w-6 h-6 text-primary" /></div>
                   <h3 className="text-xl font-bold text-secondary mb-3">Normen & Compliance</h3>
                   <p className="text-secondary/80">Planung gemäß DIN EN 54, DIN 18650, VdS-Richtlinien und allen relevanten Brandschutz-Vorschriften</p>
                 </div>
